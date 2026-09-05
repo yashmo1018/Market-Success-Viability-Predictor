@@ -1,0 +1,1645 @@
+{
+  "bluetooth_speakers": {
+    "product_type": "physical",
+    "n_products": 135,
+    "price": {
+      "mean": 73.21,
+      "median": 44.99,
+      "p25": 27.99,
+      "p75": 89.96
+    },
+    "avg_aspect_scores": {
+      "value_for_money": 7.67,
+      "utility": 7.88,
+      "ease_of_use": 7.66,
+      "reliability": 5.5,
+      "design_appeal": 8.22,
+      "after_sales": 5.27,
+      "build_quality": 7.34,
+      "durability": 6.26,
+      "repairability": 4.13
+    },
+    "avg_mention_rates": {
+      "value_for_money": 0.405,
+      "utility": 0.879,
+      "ease_of_use": 0.493,
+      "reliability": 0.28,
+      "design_appeal": 0.361,
+      "after_sales": 0.055,
+      "build_quality": 0.221,
+      "durability": 0.184,
+      "repairability": 0.01
+    },
+    "pain_points": {
+      "aspects": [
+        "repairability",
+        "after_sales",
+        "reliability"
+      ],
+      "evidence": {
+        "repairability": [
+          "A hard reset didn\u2019t work",
+          "weird charging cord. I seem to have lost it",
+          "Why would I pay that much to repair a speaker I just got last year?",
+          "it became harder to plug in the cable",
+          "100$ repair, seriously....?",
+          "ridiculous instructions",
+          "no replacement battery",
+          "piece of crap",
+          "can't get it back together",
+          "tried multiple fixes with no success",
+          "does not offer repairs",
+          "not replaceable easily",
+          "will not attach back on",
+          "Didn\u2019t even come",
+          "not worth trying to"
+        ],
+        "after_sales": [
+          "got no response",
+          "told me $75",
+          "hung up on",
+          "too late to return or refund",
+          "wrote seller days ago got no reply",
+          "returning the item to amazon",
+          "thanks for lieing",
+          "past the return window so cannot return it",
+          "I would not recommed it at this point",
+          "exchange process Update: from four stars down to one",
+          "Unable to get support",
+          "never received a response",
+          "Bose Tech Support host the usual response, to \"Factory Reset\"",
+          "Seller wants me to go through a long process",
+          "no changer and no way to charge it"
+        ],
+        "reliability": [
+          "stopped working",
+          "loses the signal",
+          "stopped working",
+          "just turned itself off",
+          "quit working",
+          "stopped working",
+          "Clock does not stay",
+          "won't charge",
+          "will not turn",
+          "disaster from day 1",
+          "after 30 days it won't hold a charge",
+          "Lasted 2 months before speaker sounds completely distorted",
+          "audio cuts off when I tried",
+          "stopped charging after the first time",
+          "no longer charges"
+        ]
+      }
+    },
+    "strengths": {
+      "aspects": [
+        "design_appeal",
+        "utility",
+        "value_for_money"
+      ],
+      "evidence": {
+        "design_appeal": [
+          "Looks slick",
+          "WOW! Better than",
+          "Aesthetically, this speaker",
+          "I loved it",
+          "I LOVE THIS",
+          "I love it",
+          "I love this",
+          "Awesome little speaker",
+          "little pod",
+          "pretty fun too",
+          "little versatile",
+          "I love that it\u2019s got a light",
+          "Midnight Blue",
+          "I love it",
+          "very attractive"
+        ],
+        "utility": [
+          "sounds amazing",
+          "Great sound",
+          "Fantastic sound",
+          "sound is amazing",
+          "works well",
+          "Great Sound",
+          "blown away",
+          "superior sound quality",
+          "sound quality is amazing",
+          "Even better",
+          "very powerful",
+          "movie theater quality",
+          "Sounds great",
+          "Best thing",
+          "sound is phenomenal"
+        ],
+        "value_for_money": [
+          "Worth the money",
+          "Even better",
+          "I love this",
+          "better than expected",
+          "great value",
+          "save money",
+          "Great sound for a great price",
+          "worth it",
+          "Bought this on sale",
+          "great price",
+          "for $30",
+          "right price",
+          "so pleased with it",
+          "outstanding fidelity",
+          "Best thing"
+        ]
+      }
+    },
+    "consumer_priorities": null,
+    "success_score": {
+      "mean": 54.3,
+      "p75_threshold": 68.16
+    },
+    "median_rating_count_log": 8.8456,
+    "median_review_velocity": 1.3699,
+    "median_avg_rating": 4.5,
+    "median_install_count_log": null,
+    "median_days_since_update": null,
+    "n_suspect_excluded": 1
+  },
+  "kitchen_appliances": {
+    "product_type": "physical",
+    "n_products": 135,
+    "price": {
+      "mean": 91.26,
+      "median": 22.95,
+      "p25": 12.99,
+      "p75": 109.99
+    },
+    "avg_aspect_scores": {
+      "value_for_money": 7.82,
+      "utility": 7.71,
+      "ease_of_use": 7.93,
+      "reliability": 5.78,
+      "design_appeal": 7.9,
+      "after_sales": 4.81,
+      "build_quality": 6.55,
+      "durability": 5.5,
+      "repairability": 4.8
+    },
+    "avg_mention_rates": {
+      "value_for_money": 0.327,
+      "utility": 0.82,
+      "ease_of_use": 0.519,
+      "reliability": 0.258,
+      "design_appeal": 0.183,
+      "after_sales": 0.081,
+      "build_quality": 0.29,
+      "durability": 0.183,
+      "repairability": 0.033
+    },
+    "pain_points": {
+      "aspects": [
+        "repairability",
+        "after_sales",
+        "durability"
+      ],
+      "evidence": {
+        "repairability": [
+          "don't sell fittings",
+          "I don't know who to call",
+          "my refrigerator ice maker stopped working",
+          "Would have cost more to fix",
+          "Even superglue won\u2019t repair them",
+          "unrepairable",
+          "we shouldn't have to pay anything on a product",
+          "There is no fix that I\u2019ve found",
+          "done everything recommended to fix this issue, and. . . nothing",
+          "I am at a loss as to what to do",
+          "No user manual online.",
+          "no one can fix them",
+          "no way to contact the manufacturer for replacement parts.",
+          "Can't you repair it?",
+          "they do not have spare parts"
+        ],
+        "after_sales": [
+          "doesn't give you",
+          "30 day window",
+          "no response",
+          "they won\u2019t refund the product",
+          "THIS COMPANY IS NOT consumer FRIENDLY THEY ARE VERY UNCOOPERATIVE",
+          "they said no",
+          "I cannot find the info on Amazon",
+          "you are saying only 30 days",
+          "no good service for these small appliances anywhere",
+          "sent back",
+          "can i send back",
+          "but returning is such a hassle",
+          "30 day warranty",
+          "they will not accept refunds",
+          "Seller refused to accept a return"
+        ],
+        "durability": [
+          "didn't last a week",
+          "failed after 8 months",
+          "stopped working",
+          "quit working",
+          "can't comment",
+          "stopped working",
+          "String broke",
+          "Rusted almost immediately",
+          "worked about 1 1/2 months and now it don\u2019t work",
+          "If died 6 months in",
+          "after 40 days it is rusting",
+          "This one clogged after only 3 months!",
+          "The day after the return date passed",
+          "these machines don't last",
+          "quit working"
+        ]
+      }
+    },
+    "strengths": {
+      "aspects": [
+        "ease_of_use",
+        "design_appeal",
+        "value_for_money"
+      ],
+      "evidence": {
+        "ease_of_use": [
+          "easy to install",
+          "nice and it has",
+          "so easy",
+          "Very easy",
+          "easy to pull out",
+          "very easy",
+          "easy to use",
+          "easy to use",
+          "we started making ice",
+          "fits perfect",
+          "works great",
+          "Easy clean up",
+          "followed the instructions and installed the parts",
+          "were a breeze to install",
+          "SO easy"
+        ],
+        "design_appeal": [
+          "nice",
+          "Silver",
+          "nicely polished",
+          "perfect size just for me!",
+          "Perfect piture",
+          "Nice detail",
+          "he loved it",
+          "colors are cute",
+          "simply adorable",
+          "Perfect size",
+          "Love this little",
+          "stainless steel beauty",
+          "does not take away",
+          "perfect size",
+          "view the high quality stainless steel without markings"
+        ],
+        "value_for_money": [
+          "Amazing for the Price",
+          "saved me hundreds",
+          "invaluable",
+          "good value",
+          "I promise you won't regret it",
+          "Great! Works well",
+          "worth its price",
+          "no paper filters",
+          "save some money",
+          "terrific price!",
+          "worth every penny",
+          "cheaper than getting the ice maker in my fridge",
+          "price was amazing",
+          "real money saver",
+          "Saves a ton"
+        ]
+      }
+    },
+    "consumer_priorities": null,
+    "success_score": {
+      "mean": 60.33,
+      "p75_threshold": 69.91
+    },
+    "median_rating_count_log": 7.5049,
+    "median_review_velocity": 2.7894,
+    "median_avg_rating": 4.4,
+    "median_install_count_log": null,
+    "median_days_since_update": null,
+    "n_suspect_excluded": 0
+  },
+  "power_banks": {
+    "product_type": "physical",
+    "n_products": 99,
+    "price": {
+      "mean": 34.83,
+      "median": 30.95,
+      "p25": 23.97,
+      "p75": 39.99
+    },
+    "avg_aspect_scores": {
+      "value_for_money": 7.42,
+      "utility": 7.51,
+      "ease_of_use": 7.84,
+      "reliability": 5.75,
+      "design_appeal": 7.66,
+      "after_sales": 4.98,
+      "build_quality": 7.14,
+      "durability": 5.71,
+      "repairability": 5.33
+    },
+    "avg_mention_rates": {
+      "value_for_money": 0.41,
+      "utility": 0.856,
+      "ease_of_use": 0.468,
+      "reliability": 0.423,
+      "design_appeal": 0.394,
+      "after_sales": 0.072,
+      "build_quality": 0.233,
+      "durability": 0.168,
+      "repairability": 0.005
+    },
+    "pain_points": {
+      "aspects": [
+        "after_sales",
+        "repairability",
+        "durability"
+      ],
+      "evidence": {
+        "after_sales": [
+          "customer service is nonexistent",
+          "Anchor will not honor the warranty",
+          "China",
+          "they didn\u2019t even return a message",
+          "seller and they didn't change the product",
+          "No support page for product through Amazon.",
+          "no support number listed for them to reach out to",
+          "I\u2019ve already had to return one of two I\u2019ve bought",
+          "Amazon refunds for crap products like this",
+          "waste of my time",
+          "Second power bank sent to me",
+          "would not refund",
+          "Returned the item",
+          "return time has expired",
+          "I had to return them"
+        ],
+        "repairability": [
+          "not returnable",
+          "flashlight stopped working and doesn't work anymore",
+          "unable to remove it",
+          "does not have a plug",
+          "null",
+          "experimenting with attaching another output",
+          "Need certified USB-C charger",
+          "you can use your own cord",
+          "Works well on complaint I have is I thought",
+          "I most definitely recommend this product",
+          "Thanks",
+          "Great product"
+        ],
+        "durability": [
+          "Will no longer",
+          "it broke",
+          "almost fell apart",
+          "After a few charging cycles it will not recharge",
+          "getting damp while in a back pack",
+          "Didnt even last a year with almost no use",
+          "bought this one month ago and now this doesn't work",
+          "I\u2019ve only had it it a few months",
+          "dies after one or two uses",
+          "The thing blew up in my drawer.",
+          "had it for 5 months... it no longer recharges",
+          "after only being used for 6 months",
+          "the one before broke within 3 months",
+          "Now it wont charge my phone at all",
+          "used once"
+        ]
+      }
+    },
+    "strengths": {
+      "aspects": [
+        "ease_of_use",
+        "design_appeal",
+        "utility"
+      ],
+      "evidence": {
+        "ease_of_use": [
+          "must have",
+          "Easy to use",
+          "Really happy",
+          "plug right",
+          "Love using",
+          "easy to carry",
+          "super easy",
+          "tiny enough to fit",
+          "become a staple in my purse and travel bag",
+          "Very convenient",
+          "They\u2019re just easy to use and very handy",
+          "Easily to see battery balance",
+          "carry with us on our Harley Trike",
+          "carry this in my backpack for those moments",
+          "good to have for the summer"
+        ],
+        "design_appeal": [
+          "looks just as good",
+          "Compact",
+          "just the right size",
+          "Great product",
+          "red color",
+          "like the design",
+          "This little guy",
+          "Perfect size",
+          "some of the other brands that were twice as big",
+          "without a lot of weight or space",
+          "compact, sleek and elegant",
+          "This is a nice bank",
+          "Great for travel charging",
+          "no evidence provided",
+          "It wasn\u2019t too big."
+        ],
+        "utility": [
+          "get about 3 full",
+          "charge phones quickly",
+          "best",
+          "holds a charge",
+          "Plenty of charging",
+          "Works great",
+          "Holds charge",
+          "Powers my MacBook",
+          "Great battery pack",
+          "save me",
+          "great for charging",
+          "most versatile",
+          "holds a lot",
+          "recharge so",
+          "came in very handy"
+        ]
+      }
+    },
+    "consumer_priorities": null,
+    "success_score": {
+      "mean": 43.28,
+      "p75_threshold": 51.63
+    },
+    "median_rating_count_log": 8.678,
+    "median_review_velocity": 0.9387,
+    "median_avg_rating": 4.5,
+    "median_install_count_log": null,
+    "median_days_since_update": null,
+    "n_suspect_excluded": 4
+  },
+  "smartphones": {
+    "product_type": "physical",
+    "n_products": 111,
+    "price": {
+      "mean": 125.79,
+      "median": 35.99,
+      "p25": 17.99,
+      "p75": 157.57
+    },
+    "avg_aspect_scores": {
+      "value_for_money": 7.54,
+      "utility": 7.53,
+      "ease_of_use": 7.4,
+      "reliability": 6.18,
+      "design_appeal": 8.02,
+      "after_sales": 5.65,
+      "build_quality": 6.9,
+      "durability": 5.45,
+      "repairability": 4.17
+    },
+    "avg_mention_rates": {
+      "value_for_money": 0.418,
+      "utility": 0.785,
+      "ease_of_use": 0.582,
+      "reliability": 0.339,
+      "design_appeal": 0.338,
+      "after_sales": 0.098,
+      "build_quality": 0.341,
+      "durability": 0.195,
+      "repairability": 0.022
+    },
+    "pain_points": {
+      "aspects": [
+        "repairability",
+        "durability",
+        "after_sales"
+      ],
+      "evidence": {
+        "repairability": [
+          "They sent me to fix it",
+          "I had to buy a part",
+          "Thankfully was able to delete everything in time",
+          "local Verizon store to see if they could get it to work and they could not",
+          "I couldn't get to settings our factory reset",
+          "unauthorized modifications",
+          "bloatware crap that you can't uninstall",
+          "local repair shop 60 miles RT. Worthless",
+          "have to mail it back to them",
+          "I don't know how to remove sins card",
+          "Send in the phone and have no phone at all",
+          "not repairable",
+          "not replaceable",
+          "Can't be repaired",
+          "battery currently in the phone was SUPER GLUED IN"
+        ],
+        "durability": [
+          "easily be crushed",
+          "failed",
+          "breaking off",
+          "lasted few weeks",
+          "broke off this morning",
+          "broke after",
+          "it already broke",
+          "stopped working 14 days after the return period closed",
+          "within the first two weeks",
+          "dropping my phone",
+          "actually broke and was dangling by a wire",
+          "only used it a few times",
+          "Battery fail",
+          "buy another brand with better durability",
+          "screen was divided into 3 sections"
+        ],
+        "after_sales": [
+          "refusing to remove",
+          "makes returns way",
+          "Very disappointed",
+          "had to return it",
+          "Apple does not fix microphones for the phone",
+          "sent them back",
+          "Wow Kiss Electronics Inc. Just wow!!",
+          "seller refusing to replace the device",
+          "four phone calls so far and they won't transfer",
+          "This will have to go back",
+          "Will not refund",
+          "not refurbished",
+          "Customer service, warranty, replacement experience.",
+          "they didn't refund me the amount spend",
+          "crappy customer service"
+        ]
+      }
+    },
+    "strengths": {
+      "aspects": [
+        "design_appeal",
+        "value_for_money",
+        "utility"
+      ],
+      "evidence": {
+        "design_appeal": [
+          "old school",
+          "design os on point",
+          "Looks great in Bamboo",
+          "little gem",
+          "Gorgeous item",
+          "wonderful",
+          "Color, style",
+          "good look",
+          "So light",
+          "old fashion telephone",
+          "EXCELLENT earbud",
+          "Great style",
+          "so cute",
+          "design is nice",
+          "Like the feel"
+        ],
+        "value_for_money": [
+          "excellent purchase",
+          "less than half",
+          "Great job DJI",
+          "Love this organizer",
+          "well worth",
+          "cheapest earpiece",
+          "great case at a great price",
+          "worth every penny",
+          "quality product",
+          "Love this more",
+          "half price",
+          "I'm very happy",
+          "worth every cent",
+          "Best price",
+          "Great set"
+        ],
+        "utility": [
+          "Works like a charm",
+          "she loves it",
+          "better quality sound",
+          "works perfectly",
+          "works great",
+          "hold the top in place",
+          "great sound",
+          "saved my screen",
+          "sound quality great",
+          "Works as described",
+          "works better",
+          "my phone had stayed safe",
+          "quickly charges iPad and iPhone",
+          "amazing grip",
+          "covered everything"
+        ]
+      }
+    },
+    "consumer_priorities": null,
+    "success_score": {
+      "mean": 42.86,
+      "p75_threshold": 49.21
+    },
+    "median_rating_count_log": 8.1516,
+    "median_review_velocity": 0.6067,
+    "median_avg_rating": 4.2,
+    "median_install_count_log": null,
+    "median_days_since_update": null,
+    "n_suspect_excluded": 1
+  },
+  "smartwatches": {
+    "product_type": "physical",
+    "n_products": 114,
+    "price": {
+      "mean": 90.46,
+      "median": 49.99,
+      "p25": 35.24,
+      "p75": 118.74
+    },
+    "avg_aspect_scores": {
+      "value_for_money": 7.09,
+      "utility": 6.63,
+      "ease_of_use": 6.49,
+      "reliability": 4.24,
+      "design_appeal": 8.06,
+      "after_sales": 4.38,
+      "build_quality": 6.43,
+      "durability": 5.02,
+      "repairability": 3.91
+    },
+    "avg_mention_rates": {
+      "value_for_money": 0.439,
+      "utility": 0.743,
+      "ease_of_use": 0.619,
+      "reliability": 0.432,
+      "design_appeal": 0.395,
+      "after_sales": 0.115,
+      "build_quality": 0.23,
+      "durability": 0.196,
+      "repairability": 0.019
+    },
+    "pain_points": {
+      "aspects": [
+        "repairability",
+        "reliability",
+        "after_sales"
+      ],
+      "evidence": {
+        "repairability": [
+          "can't be reattached",
+          "All I got was you need to buy a new one",
+          "I can\u2019t fix it",
+          "tried to charge me $140 to fix",
+          "The manufacturer refused to repair the watch.",
+          "that they'll have to reach out to a third party, and it may cost more",
+          "Samsung wouldn't replace it or fix it",
+          "stopped working after 10 months",
+          "deemed unrepairable",
+          "There is no way to buy them.",
+          "I would have to ship my entire watch back",
+          "can\u2019t be replaced",
+          "Does not come with a charger",
+          "I couldn\u2019t get it to come back on",
+          "it was less than a year old"
+        ],
+        "reliability": [
+          "dead on arrival",
+          "died after",
+          "no sync with",
+          "common problem",
+          "over heating",
+          "battery only",
+          "loses wifi connection",
+          "vibrator broke after a month's use",
+          "both the Back and Home buttons stopped working",
+          "never adjusts",
+          "Didn't work",
+          "Lines and died",
+          "started having problems",
+          "Could not connect with the app",
+          "not any good"
+        ],
+        "after_sales": [
+          "kid-Snowflakes",
+          "Returned the watch",
+          "Do not replace",
+          "Customer support worthless",
+          "How do I get in touch with store",
+          "Could not find any tech support",
+          "missed return date",
+          "horrible customer support on their part",
+          "Tell me why I have to pay for taxes and hopping when the vendor sent me a defective item",
+          "Company asking me to change my review",
+          "the company won't refund or replace it",
+          "Hardly a sufficient amount of time for bugs",
+          "Amazon tells me to go to the manufacturer; the manufacturer won't respond",
+          "have to go",
+          "Awaiting response from Garmin to address."
+        ]
+      }
+    },
+    "strengths": {
+      "aspects": [
+        "design_appeal",
+        "value_for_money",
+        "utility"
+      ],
+      "evidence": {
+        "design_appeal": [
+          "beautiful display",
+          "very comfortable",
+          "awesome",
+          "Love how it feels",
+          "looks more like",
+          "Lightweight",
+          "beautiful classic",
+          "many compliments",
+          "The display is amazing",
+          "like new",
+          "design is great",
+          "It is very neat and with the gold bezel",
+          "purple and it is really pretty and true to color",
+          "Very fashionable",
+          "I love the variety of watch faces"
+        ],
+        "value_for_money": [
+          "at this price",
+          "great",
+          "great smart watch",
+          "Only way more affordable",
+          "my favorite",
+          "more features",
+          "lived up to that hope",
+          "Very glad I purchased",
+          "like new",
+          "everything I need",
+          "exceeded my expectations",
+          "definitely is worth the purchase",
+          "skeptical after seeing the low price",
+          "didn't pay the outrageous fee Apple requires",
+          "very happy with it"
+        ],
+        "utility": [
+          "functional",
+          "like the HR feature",
+          "great battery life",
+          "works better than expected",
+          "Love the apps",
+          "does exactly",
+          "Easily as good",
+          "does it prefert",
+          "tells the time",
+          "outstanding battery",
+          "incredible",
+          "lived up to that hope",
+          "Does everything I expected",
+          "track my sleep",
+          "works great"
+        ]
+      }
+    },
+    "consumer_priorities": null,
+    "success_score": {
+      "mean": 39.33,
+      "p75_threshold": 49.51
+    },
+    "median_rating_count_log": 8.1865,
+    "median_review_velocity": 1.1453,
+    "median_avg_rating": 4.2,
+    "median_install_count_log": null,
+    "median_days_since_update": null,
+    "n_suspect_excluded": 2
+  },
+  "wireless_headphones": {
+    "product_type": "physical",
+    "n_products": 138,
+    "price": {
+      "mean": 65.13,
+      "median": 34.99,
+      "p25": 23.99,
+      "p75": 79.95
+    },
+    "avg_aspect_scores": {
+      "value_for_money": 7.46,
+      "utility": 7.46,
+      "ease_of_use": 6.96,
+      "reliability": 4.9,
+      "design_appeal": 7.6,
+      "after_sales": 5.31,
+      "build_quality": 6.57,
+      "durability": 4.73,
+      "repairability": 4.5
+    },
+    "avg_mention_rates": {
+      "value_for_money": 0.383,
+      "utility": 0.783,
+      "ease_of_use": 0.646,
+      "reliability": 0.36,
+      "design_appeal": 0.239,
+      "after_sales": 0.077,
+      "build_quality": 0.3,
+      "durability": 0.171,
+      "repairability": 0.015
+    },
+    "pain_points": {
+      "aspects": [
+        "repairability",
+        "durability",
+        "reliability"
+      ],
+      "evidence": {
+        "repairability": [
+          "won't Bluetooth connect",
+          "useless overseas tech that tells you to go",
+          "glue it back together",
+          "Any one having this issue and knows how to repair this?",
+          "Its unclear to me where to even find these replacement pads",
+          "tried everything that's a video suggested",
+          "no possible easy way to get them fixed",
+          "Looked all over on youtube to try to fix",
+          "Reset",
+          "still not working",
+          "send back to case and buds back to Samsung",
+          "tried resetting, charging for 24",
+          "Not as fixable as the older model",
+          "no recourse for getting this fixed",
+          "proprietary charging cable with no way to buy spare"
+        ],
+        "durability": [
+          "stop working",
+          "broke anyway",
+          "already dead",
+          "ran out of power",
+          "one week",
+          "stopped after",
+          "just die",
+          "die in 30min",
+          "stop charging",
+          "if they fall out of your pocket",
+          "The neck piece in the middle breaks REALLY EASILY!",
+          "Falling apart after less than a month",
+          "Very disappointed in longevity",
+          "you will be buying a new pair every year",
+          "They only lasted a few months."
+        ],
+        "reliability": [
+          "stop working",
+          "lose connection constantly",
+          "stop working",
+          "continually turning itself off",
+          "loosing connection",
+          "already dead",
+          "left earbud stopped",
+          "wouldn't charge",
+          "cannot get it",
+          "stopped after",
+          "loosing signal",
+          "headphones would die",
+          "only one works",
+          "stop charging",
+          "won't charge"
+        ]
+      }
+    },
+    "strengths": {
+      "aspects": [
+        "design_appeal",
+        "value_for_money",
+        "utility"
+      ],
+      "evidence": {
+        "design_appeal": [
+          "love the color",
+          "molded to my skull",
+          "Glad you added",
+          "incredible piece",
+          "Compact carrying",
+          "fits so good",
+          "packaging is very nice",
+          "I love the design",
+          "they\u2019re the bomb",
+          "earbuds lights do not show up while in ears",
+          "I love these headphones",
+          "Case slips easily into a pocket",
+          "small so I don't look like an alien",
+          "PURE LUXURY",
+          "I love the rose gold color"
+        ],
+        "value_for_money": [
+          "forever-headphones",
+          "Price point superb",
+          "amazing value",
+          "Such a steal",
+          "JBL quality",
+          "saved our trip",
+          "I'd recommend",
+          "Awesome deal",
+          "I love these",
+          "can't beat the price",
+          "Worth it",
+          "can't go wrong",
+          "Glad I didn\u2019t waste",
+          "amazing",
+          "decent affordable"
+        ],
+        "utility": [
+          "nice quiet",
+          "blown away",
+          "work great to cancel out surrounding sounds",
+          "crystal clear",
+          "sound is great",
+          "sound is awesome",
+          "best I've ever had",
+          "Nice bass",
+          "noise cancellation",
+          "quality of the sound",
+          "cancel out all sound",
+          "amazing product",
+          "great sound",
+          "My kids can't",
+          "made it virtually silent"
+        ]
+      }
+    },
+    "consumer_priorities": null,
+    "success_score": {
+      "mean": 49.36,
+      "p75_threshold": 58.77
+    },
+    "median_rating_count_log": 9.6604,
+    "median_review_velocity": 3.1236,
+    "median_avg_rating": 4.3,
+    "median_install_count_log": null,
+    "median_days_since_update": null,
+    "n_suspect_excluded": 0
+  },
+  "education_apps": {
+    "product_type": "app",
+    "n_products": 64,
+    "price": {
+      "mean": 0.08,
+      "median": 0.0,
+      "p25": 0.0,
+      "p75": 0.0
+    },
+    "avg_aspect_scores": {
+      "value_for_money": 5.09,
+      "utility": 7.55,
+      "ease_of_use": 7.07,
+      "reliability": 4.28,
+      "design_appeal": 7.89,
+      "after_sales": 6.24,
+      "performance": 6.55,
+      "stability": 4.75,
+      "ad_experience": 7.15,
+      "update_support": 6.35,
+      "privacy_trust": 6.38
+    },
+    "avg_mention_rates": {
+      "value_for_money": 0.249,
+      "utility": 0.792,
+      "ease_of_use": 0.308,
+      "reliability": 0.164,
+      "design_appeal": 0.12,
+      "after_sales": 0.12,
+      "performance": 0.072,
+      "stability": 0.099,
+      "ad_experience": 0.085,
+      "update_support": 0.102,
+      "privacy_trust": 0.042
+    },
+    "pain_points": {
+      "aspects": [
+        "reliability",
+        "stability",
+        "value_for_money"
+      ],
+      "evidence": {
+        "reliability": [
+          "app went down for about a week",
+          "it's not even loading properly",
+          "Im pressing install its not doing anything",
+          "my deck wont refresh and wont display",
+          "it glitch's out",
+          "even I uninstalled the app the payment is still going",
+          "is not show correct solution",
+          "can't see my cards it is just invisible",
+          "the app forgot my account",
+          "compiler fails",
+          "without providing me with any opportunity to interact with it",
+          "flashcard won't appear the result",
+          "sentence builder is not working",
+          "would not allow me to use it anymore",
+          "The app keeps saying unexpected error"
+        ],
+        "stability": [
+          "it isn't even letting me in the app completely",
+          "its not doing anything",
+          "it glitch's out",
+          "too many bugs in app",
+          "this app just time wasting",
+          "immediately closes when you hit the suggestion button",
+          "crashes immediately after start",
+          "since the last update",
+          "I couldn't even get the app open",
+          "sentence builder is not working",
+          "would not allow me to use it anymore",
+          "keep glitching",
+          "doesnt work",
+          "signed me out",
+          "it is a scam"
+        ],
+        "value_for_money": [
+          "not worth that risk",
+          "won't allow even one upload of file without subscription",
+          "I have canceled my premium subscription.",
+          "I need that refunded",
+          "charged right away",
+          "the payment is still going",
+          "don't fall for these scammers",
+          "It's better to just use ChatGPT directly",
+          "Seriously u won't be able to download unless you are a premium user",
+          "waste my money",
+          "automatically charged",
+          "don't let people susccribe it is making it boring",
+          "make you subscribe then take away content",
+          "Waste of money",
+          "Pay!"
+        ]
+      }
+    },
+    "strengths": {
+      "aspects": [
+        "design_appeal",
+        "utility",
+        "ad_experience"
+      ],
+      "evidence": {
+        "design_appeal": [
+          "feels so modern and slick",
+          "this application is very useful",
+          "it's challenging and fun",
+          "haven't seen any reason for complaints",
+          "This app is very nice",
+          "it's so funny",
+          "colourful, easily intuative app with cute displays",
+          "it's really worth it",
+          "simple",
+          "no annoying ads",
+          "this app is too good app",
+          "you can even custom your own times table",
+          "Entertaining, engaging and well structured to make learning come naturally.",
+          "better than many of the other apps I have used",
+          "i love the structure and how organized it is"
+        ],
+        "utility": [
+          "crazy how well the spaced repetition works",
+          "both gives practice and entertainment",
+          "very best coding",
+          "actually teaches",
+          "accomplish its core",
+          "this application is very useful",
+          "accelerated my learning in a comprehensive way",
+          "helping me to speak different languages",
+          "my searching is over",
+          "very fun to learn another language",
+          "This app is what I need.",
+          "Excellent!!",
+          "I feel like I'm really learning",
+          "its perfect",
+          "it actually helps"
+        ],
+        "ad_experience": [
+          "this application is very useful",
+          "it's challenging and fun",
+          "no evidence (implied)",
+          "provides training without distruction",
+          "haven't seen any reason for complaints",
+          "Not much ads",
+          "it's really worth it",
+          "no annoying ads",
+          "it's too good just try it",
+          "better than many of the other apps I have used",
+          "This app is great",
+          "Quite amazing",
+          "Thank you for not being money hungry",
+          "no hassle",
+          "absoulutly recommend using this"
+        ]
+      }
+    },
+    "consumer_priorities": null,
+    "success_score": {
+      "mean": 40.41,
+      "p75_threshold": 46.77
+    },
+    "median_rating_count_log": 10.3989,
+    "median_review_velocity": 16.7637,
+    "median_avg_rating": 4.511,
+    "median_install_count_log": 14.9655,
+    "median_days_since_update": 24.14,
+    "n_suspect_excluded": 16
+  },
+  "finance_apps": {
+    "product_type": "app",
+    "n_products": 79,
+    "price": {
+      "mean": 0.2,
+      "median": 0.0,
+      "p25": 0.0,
+      "p75": 0.0
+    },
+    "avg_aspect_scores": {
+      "value_for_money": 5.1,
+      "utility": 6.67,
+      "ease_of_use": 6.89,
+      "reliability": 3.9,
+      "design_appeal": 7.78,
+      "after_sales": 5.39,
+      "performance": 6.45,
+      "stability": 4.38,
+      "ad_experience": 6.91,
+      "update_support": 5.33,
+      "privacy_trust": 5.43
+    },
+    "avg_mention_rates": {
+      "value_for_money": 0.235,
+      "utility": 0.704,
+      "ease_of_use": 0.397,
+      "reliability": 0.251,
+      "design_appeal": 0.156,
+      "after_sales": 0.176,
+      "performance": 0.07,
+      "stability": 0.126,
+      "ad_experience": 0.082,
+      "update_support": 0.166,
+      "privacy_trust": 0.068
+    },
+    "pain_points": {
+      "aspects": [
+        "reliability",
+        "stability",
+        "value_for_money"
+      ],
+      "evidence": {
+        "reliability": [
+          "can't get into the app now",
+          "the problem persisted",
+          "won't let me log",
+          "latest update broke options chain",
+          "blocked access to my own money for 3 months",
+          "Broken app.",
+          "Apparently this app/company likes to take control of your account",
+          "It doesn't open on the tablet either",
+          "everytime I connect to my bank it doesn't work",
+          "Can't log into my existing account",
+          "keeps looping me around and around",
+          "associates it with another google account",
+          "constan crashing",
+          "you don't know what is happening with your money",
+          "stuck in a white web screen"
+        ],
+        "stability": [
+          "says my phone is not compatible",
+          "app repeatedly froze",
+          "won't let me log",
+          "latest update broke options chain",
+          "software is buggy",
+          "App does not open",
+          "get a \" update app\" error message",
+          "The last update bricked the app",
+          "stuck in some kind of mad crashing loop",
+          "constan crashing",
+          "freezes to a blank screen",
+          "most buggy app ever",
+          "It doesn't open",
+          "WHAT ARE THE BLOODY *^%$#$\u00d7%+!!%^% %%//\"BUG FIXES?\"",
+          "constant freezing and crashes"
+        ],
+        "value_for_money": [
+          "take money",
+          "requires you to make a purchase with no trial",
+          "Apparently this app/company likes to take control of your account",
+          "seems like a trap rather than a genuine attempt",
+          "agreeing to a new subscription",
+          "Regretting having paid for this app",
+          "Money paid on app is useless",
+          "$11 / month to scan 10 recipts",
+          "cheap money grab",
+          "requires payment",
+          "no benefits",
+          "you have to subscribe to premium",
+          "asking to subscribe before start using",
+          "I want my money back.",
+          "pay subscription to export/import my previous balances"
+        ]
+      }
+    },
+    "strengths": {
+      "aspects": [
+        "design_appeal",
+        "ad_experience",
+        "ease_of_use"
+      ],
+      "evidence": {
+        "design_appeal": [
+          "Not mentioned",
+          "text updates and services are very helpful",
+          "user interface",
+          "i love that the app",
+          "Good app for trading and saving money at the same time",
+          "it has budget posts and not complicated",
+          "happily pay the premium subscription",
+          "its cute",
+          "cute and engaging way",
+          "I love that I can just text Rolly",
+          "super cute",
+          "i like it",
+          "love how simple the app and interface are",
+          "very clean UI",
+          "great simple overview"
+        ],
+        "ad_experience": [
+          "Not mentioned",
+          "text updates and services are very helpful",
+          "No ads either",
+          "Good app for trading and saving money at the same time",
+          "happily pay the premium subscription",
+          "no ad-riddled",
+          "No ads is a big plus",
+          "keeping it ad-free",
+          "best app without unnecessary fluff",
+          "never looked back ever since",
+          "Remove Ads",
+          "actually helped me save",
+          "The ads are so worth it for the free version!!",
+          "I love the simplicity of BillOut.",
+          "this is the best and most useful app"
+        ],
+        "ease_of_use": [
+          "Easy to use",
+          "Not mentioned",
+          "so easy to use",
+          "text updates and services are very helpful",
+          "user interface",
+          "Very easy to use",
+          "Easy to use",
+          "Good app for trading and saving money at the same time",
+          "simplified budgeting do me",
+          "not complicated",
+          "track my finances with accuracy and ease",
+          "it showed up on my screen",
+          "Simple and straight to the point",
+          "Very intuitive",
+          "simple and easy to understand"
+        ]
+      }
+    },
+    "consumer_priorities": null,
+    "success_score": {
+      "mean": 38.8,
+      "p75_threshold": 45.71
+    },
+    "median_rating_count_log": 9.8493,
+    "median_review_velocity": 9.7741,
+    "median_avg_rating": 4.44,
+    "median_install_count_log": 13.9277,
+    "median_days_since_update": 17.22,
+    "n_suspect_excluded": 13
+  },
+  "health_fitness_apps": {
+    "product_type": "app",
+    "n_products": 110,
+    "price": {
+      "mean": 0.0,
+      "median": 0.0,
+      "p25": 0.0,
+      "p75": 0.0
+    },
+    "avg_aspect_scores": {
+      "value_for_money": 5.26,
+      "utility": 7.35,
+      "ease_of_use": 6.97,
+      "reliability": 4.52,
+      "design_appeal": 8.01,
+      "after_sales": 6.02,
+      "performance": 6.33,
+      "stability": 4.82,
+      "ad_experience": 7.27,
+      "update_support": 6.21,
+      "privacy_trust": 5.85
+    },
+    "avg_mention_rates": {
+      "value_for_money": 0.278,
+      "utility": 0.778,
+      "ease_of_use": 0.313,
+      "reliability": 0.225,
+      "design_appeal": 0.107,
+      "after_sales": 0.126,
+      "performance": 0.07,
+      "stability": 0.116,
+      "ad_experience": 0.084,
+      "update_support": 0.122,
+      "privacy_trust": 0.053
+    },
+    "pain_points": {
+      "aspects": [
+        "reliability",
+        "stability",
+        "value_for_money"
+      ],
+      "evidence": {
+        "reliability": [
+          "didnt let me even sign in again",
+          "wont let you put the calories you really ate",
+          "infinite blue screen",
+          "save progress doesn't work",
+          "verification code is not sent to my email address",
+          "doesn't work at all",
+          "Google auth button does not work",
+          "it showed me that one day when I had the worst sleep, the quality of sleep ,they said ,it's almost 100%",
+          "app keeps deleting data",
+          "Does not work.",
+          "just stuck loading saying please wait",
+          "will not work at all",
+          "fails when you try to read a barcode",
+          "it doesn't save my progress",
+          "Does not save"
+        ],
+        "stability": [
+          "didnt let me even sign in again",
+          "infinite blue screen",
+          "one of the worse app",
+          "verification code is not sent to my email address",
+          "request cancelled by waking up",
+          "app will delete it and I lose my daily totals",
+          "Does not work.",
+          "will not work at all",
+          "macros disappeared",
+          "nothing loaded",
+          "app crashes immediately",
+          "every new update creates chaos",
+          "will automatically out",
+          "app keeps crashing in less than 5 seconds",
+          "completely dead and hot to the touch"
+        ],
+        "value_for_money": [
+          "seems like I have wasted my time and money",
+          "get reall $ 55",
+          "The first night should of been free",
+          "advertised as a free app but you can't use it",
+          "asks to pay to use it",
+          "charged 60 dollars was supposed to be a free 7 day trial",
+          "This app is not free despite other reviews.",
+          "very little is free about this app",
+          "charge me $400? I don't have that kind of money",
+          "you get nothing without a purchased plan",
+          "5 times the original amount",
+          "Absolutely useless unless you pay!",
+          "lock you out behind a paywall",
+          "don't buy it's totally not accurate",
+          "No Free Trial"
+        ]
+      }
+    },
+    "strengths": {
+      "aspects": [
+        "design_appeal",
+        "utility",
+        "ad_experience"
+      ],
+      "evidence": {
+        "design_appeal": [
+          "great app",
+          "better and cheaper than the other sleep apps",
+          "pleasant, and helpful",
+          "very user friendly UI",
+          "Your app made it approachable and exciting.",
+          "large variety of meditations",
+          "it's an excellent app",
+          "The interface is simple",
+          "already done a better job",
+          "Very few ads!!",
+          "Very smooth",
+          "looks awesome",
+          "quality of this game is very nice",
+          "the interface is intuitive and easy to use",
+          "The exercises are good"
+        ],
+        "utility": [
+          "this was actually quite useful",
+          "really helps me",
+          "do better in yourself to heal and live longer",
+          "everything you need out of a workout tracker",
+          "make it possible to track your progress",
+          "great data",
+          "it works 100%",
+          "started at june 10 fasting at 80 kg but now im 76kg",
+          "handy calorie counter. maintained my weight for a year",
+          "love the voice on the meditations",
+          "accomplish its core purpose well",
+          "intuitive and easy the app is to use",
+          "healed my heart a little everytime I used it",
+          "best app of its kind I've encountered",
+          "accomplish its core purpose well"
+        ],
+        "ad_experience": [
+          "great app",
+          "better and cheaper than the other sleep apps",
+          "love the active meditations",
+          "Your app made it approachable and exciting.",
+          "none of the useless fluff",
+          "No adds, no interruption",
+          "nothing much",
+          "perfect for reducing choice paralysis",
+          "already done a better job",
+          "Very few ads!!",
+          "no ad-riddled",
+          "doesn't attack us with ads",
+          "The exercises are good",
+          "no ads",
+          "no extra bells and whistles"
+        ]
+      }
+    },
+    "consumer_priorities": null,
+    "success_score": {
+      "mean": 41.35,
+      "p75_threshold": 47.71
+    },
+    "median_rating_count_log": 10.8851,
+    "median_review_velocity": 17.6416,
+    "median_avg_rating": 4.606,
+    "median_install_count_log": 15.1429,
+    "median_days_since_update": 17.38,
+    "n_suspect_excluded": 20
+  },
+  "productivity_apps": {
+    "product_type": "app",
+    "n_products": 66,
+    "price": {
+      "mean": 0.12,
+      "median": 0.0,
+      "p25": 0.0,
+      "p75": 0.0
+    },
+    "avg_aspect_scores": {
+      "value_for_money": 5.45,
+      "utility": 7.23,
+      "ease_of_use": 6.97,
+      "reliability": 4.04,
+      "design_appeal": 8.03,
+      "after_sales": 6.02,
+      "performance": 6.62,
+      "stability": 4.43,
+      "ad_experience": 7.66,
+      "update_support": 5.6,
+      "privacy_trust": 5.99
+    },
+    "avg_mention_rates": {
+      "value_for_money": 0.181,
+      "utility": 0.743,
+      "ease_of_use": 0.348,
+      "reliability": 0.268,
+      "design_appeal": 0.186,
+      "after_sales": 0.126,
+      "performance": 0.093,
+      "stability": 0.143,
+      "ad_experience": 0.084,
+      "update_support": 0.159,
+      "privacy_trust": 0.055
+    },
+    "pain_points": {
+      "aspects": [
+        "reliability",
+        "stability",
+        "value_for_money"
+      ],
+      "evidence": {
+        "reliability": [
+          "u can.t sync the data between 2 devices",
+          "it never worked",
+          "my recording aren't saving",
+          "keeps throwing exceptions",
+          "their advertised syncing saves .nsa files",
+          "app gets stuck at loading",
+          "my notes just disappeared outta nowhere",
+          "huge lag",
+          "now I can't even log in",
+          "my Jnotes isn't responding for four days",
+          "crashes frequently",
+          "pro version is not showing up",
+          "it is so frustrating",
+          "lost 3 hours",
+          "pro would not unlock"
+        ],
+        "stability": [
+          "the app closes when I hit save",
+          "app gets stuck at loading",
+          "crashes frequently",
+          "complete mess",
+          "fails to register",
+          "flip keeps stopping",
+          "something went wrong",
+          "Most annoying, buggy and slow app",
+          "automatically saved the work, now ruined",
+          "Latest Android update broke tasks interface",
+          "problem I encounter is I can't click",
+          "a lot of bugs",
+          "can't open previously saved to-do lists or memos",
+          "added so many spam entries",
+          "Todo list keeps disappearing on widgets"
+        ],
+        "value_for_money": [
+          "upgraded to premium so it would go between my partner",
+          "so should you",
+          "charged me over 80\u20ac",
+          "Not a Free App",
+          "insanely pay-to-win for something so simple",
+          "I paid 10 euros for this",
+          "purchased the premium version for a one time fee",
+          "Regularly changing them so the cost increases by large amounts",
+          "paywalls and incorporation of IA",
+          "absolute paywall",
+          "\u00a38.25/month",
+          "No where they mentioned it's paid app",
+          "ask money for each and every thing",
+          "Charging twice for pro version is Unfair",
+          "it is so frustrating"
+        ]
+      }
+    },
+    "strengths": {
+      "aspects": [
+        "design_appeal",
+        "ad_experience",
+        "utility"
+      ],
+      "evidence": {
+        "design_appeal": [
+          "no any distractions within the app",
+          "I appreciate the customizability",
+          "It's not just a running list of tasks",
+          "Great app",
+          "make notes like Adobe illustrator, and CorelDRAW",
+          "I really like it.",
+          "changing my review",
+          "perfect with my needs",
+          "cute and efficient",
+          "amazing",
+          "its great",
+          "Super cute",
+          "overall good app",
+          "new interface of the app looks so great and cool",
+          "Beautifully themed widget"
+        ],
+        "ad_experience": [
+          "no ads",
+          "no any distractions within the app",
+          "There are no adds",
+          "It really relieves a lot of executive functioning",
+          "I've never had an issue with it at all.",
+          "changing my review",
+          "perfect with my needs",
+          "no regrets at all",
+          "No ads! Amazing.",
+          "ad-riddled",
+          "ads are minimal/non-intrusive",
+          "you don't need to log in,watch countless adds or pay to use it",
+          "this up help me a lot",
+          "Runs smoothly with no issues",
+          "And there are no adds"
+        ],
+        "utility": [
+          "track the progress effectively and plan a day",
+          "using this app",
+          "I sm more productive with this app",
+          "make my immediate recall of my concepts",
+          "you can make multiple lists",
+          "accomplish its core purpose well",
+          "I love it",
+          "It's not just a running list of tasks",
+          "best app for focused study",
+          "1000 times better and more efficient",
+          "many features",
+          "accomplish its core purpose well",
+          "Best App .. for making notes",
+          "absolutely best",
+          "I've never had an issue with it at all."
+        ]
+      }
+    },
+    "consumer_priorities": null,
+    "success_score": {
+      "mean": 39.74,
+      "p75_threshold": 45.54
+    },
+    "median_rating_count_log": 10.5504,
+    "median_review_velocity": 17.5177,
+    "median_avg_rating": 4.535,
+    "median_install_count_log": 15.5196,
+    "median_days_since_update": 23.78,
+    "n_suspect_excluded": 14
+  }
+}

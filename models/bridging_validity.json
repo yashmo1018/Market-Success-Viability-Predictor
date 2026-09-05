@@ -1,0 +1,87 @@
+{
+  "source": "retro validation v2 skeptic prompt, 89 real products, launch-knowable specs only (2026-07-16)",
+  "aspects": {
+    "value_for_money": {
+      "r": 0.39,
+      "ci": [
+        0.221,
+        0.544
+      ],
+      "n": 88,
+      "badge": "MODERATE"
+    },
+    "utility": {
+      "r": 0.443,
+      "ci": [
+        0.208,
+        0.631
+      ],
+      "n": 89,
+      "badge": "STRONG"
+    },
+    "ease_of_use": {
+      "r": 0.449,
+      "ci": [
+        0.247,
+        0.621
+      ],
+      "n": 89,
+      "badge": "STRONG"
+    },
+    "reliability": {
+      "r": 0.295,
+      "ci": [
+        0.09,
+        0.496
+      ],
+      "n": 89,
+      "badge": "MODERATE"
+    },
+    "design_appeal": {
+      "r": 0.16,
+      "ci": [
+        -0.013,
+        0.325
+      ],
+      "n": 89,
+      "badge": "NO SIGNAL"
+    },
+    "after_sales": {
+      "r": 0.004,
+      "ci": [
+        -0.22,
+        0.229
+      ],
+      "n": 72,
+      "badge": "NO SIGNAL"
+    },
+    "build_quality": {
+      "r": 0.437,
+      "ci": [
+        0.271,
+        0.585
+      ],
+      "n": 87,
+      "badge": "STRONG"
+    },
+    "durability": {
+      "r": 0.299,
+      "ci": [
+        0.143,
+        0.445
+      ],
+      "n": 84,
+      "badge": "MODERATE"
+    },
+    "repairability": {
+      "r": 0.266,
+      "ci": [
+        -0.067,
+        0.586
+      ],
+      "n": 39,
+      "badge": "NO SIGNAL"
+    }
+  },
+  "note": "badge = measured validity of spec-based estimates vs real consumer perception"
+}

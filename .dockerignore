@@ -1,0 +1,20 @@
+# Keep the Docker build context (and HF image) lean.
+.git
+node_modules
+**/node_modules
+backups
+data/raw
+data/staging
+data/final/reviews_physical.json
+data/final/reviews_app.json
+logs
+papers
+paper_ieee/media
+*.zip
+*.docx
+capstone.db
+config/llm_providers.yaml
+secrets_for_streamlit_cloud.toml
+.env
+**/__pycache__
+*.pyc

@@ -1,0 +1,638 @@
+{
+  "n": 89,
+  "tier_means": {
+    "flop": 59.1,
+    "weak": 61.1,
+    "mid": 61.4,
+    "strong": 63.2,
+    "monopoly": 65.7
+  },
+  "monotonic": true,
+  "monopoly_minus_flop_gap": 6.6,
+  "flop_vs_monopoly_auc": 0.761,
+  "spectrum": [
+    {
+      "name": "Padgene DZ09 Bluetooth Smartwatch,Touchscreen Wrist Smart Ph",
+      "category": "smartwatches",
+      "actual_success": 4.157,
+      "pred_viability": 47.3,
+      "rating_count": 2158
+    },
+    {
+      "name": "powkey 200Watt Portable Power Bank with AC Outlet, 42,000mAh",
+      "category": "power_banks",
+      "actual_success": 11.689,
+      "pred_viability": 65.7,
+      "rating_count": 2280
+    },
+    {
+      "name": "iWALK Magnetic Wireless Power Bank, 6000mAh Portable Charger",
+      "category": "power_banks",
+      "actual_success": 13.268,
+      "pred_viability": 67.8,
+      "rating_count": 4337
+    },
+    {
+      "name": "BlueParrott M300-XT Noise Cancelling Hands-free Mono Bluetoo",
+      "category": "smartphones",
+      "actual_success": 19.126,
+      "pred_viability": 59.6,
+      "rating_count": 3143
+    },
+    {
+      "name": "HAFURY Smart Watch Activity Fitness Tracker Watch, Compatibl",
+      "category": "smartwatches",
+      "actual_success": 24.57,
+      "pred_viability": 52.9,
+      "rating_count": 2216
+    },
+    {
+      "name": "Pacrate Gaming Headset with Microphone for PC Mac PS4 Headse",
+      "category": "wireless_headphones",
+      "actual_success": 24.778,
+      "pred_viability": 57.2,
+      "rating_count": 18368
+    },
+    {
+      "name": "Padgene Bluetooth Smartwatch,Touchscreen Wrist Smart Phone W",
+      "category": "smartwatches",
+      "actual_success": 25.233,
+      "pred_viability": 46.8,
+      "rating_count": 3491
+    },
+    {
+      "name": "Upgraded Wearable Waterproof Wireless Wrist Portable Sports ",
+      "category": "bluetooth_speakers",
+      "actual_success": 26.424,
+      "pred_viability": 56.7,
+      "rating_count": 3697
+    },
+    {
+      "name": "Smart Watch for Men Fitness Tracker: (Answer/Make Call) IP68",
+      "category": "smartwatches",
+      "actual_success": 27.754,
+      "pred_viability": 52.6,
+      "rating_count": 3231
+    },
+    {
+      "name": "Gallstep Night Lights Bluetooth Speaker, Alarm Clock Bluetoo",
+      "category": "bluetooth_speakers",
+      "actual_success": 27.792,
+      "pred_viability": 57.8,
+      "rating_count": 6504
+    },
+    {
+      "name": "AMORNO Foldable Bluetooth Headphones Wireless Neckband Heads",
+      "category": "wireless_headphones",
+      "actual_success": 30.092,
+      "pred_viability": 60.7,
+      "rating_count": 6924
+    },
+    {
+      "name": "Kuulaa Portable Charger 26800mAh, High Capacity Power Bank, ",
+      "category": "power_banks",
+      "actual_success": 31.485,
+      "pred_viability": 70.6,
+      "rating_count": 6308
+    },
+    {
+      "name": "Anti Dust Plugs Compatible with iPhone 7/8/ X/XS/XR/ 11/12, ",
+      "category": "smartphones",
+      "actual_success": 31.714,
+      "pred_viability": 58.3,
+      "rating_count": 4100
+    },
+    {
+      "name": "Bluetooth, Portable Wireless Speaker with Subwoofer Heavy Ba",
+      "category": "bluetooth_speakers",
+      "actual_success": 31.776,
+      "pred_viability": 67.9,
+      "rating_count": 5705
+    },
+    {
+      "name": "OCTANDRA Active VeryFitPro Fitness Tracker HR Heart Rate Sle",
+      "category": "smartwatches",
+      "actual_success": 32.476,
+      "pred_viability": 53.0,
+      "rating_count": 2342
+    },
+    {
+      "name": "Selfie Light for iPhone & Android\uff0cLVYOUIF Portable Clip on R",
+      "category": "smartphones",
+      "actual_success": 32.612,
+      "pred_viability": 58.5,
+      "rating_count": 3876
+    },
+    {
+      "name": "VEGER Mini Portable Charger for iPhone, 5000mAh 20W PD Fast ",
+      "category": "power_banks",
+      "actual_success": 32.778,
+      "pred_viability": 73.2,
+      "rating_count": 4947
+    },
+    {
+      "name": "Wireless Earbuds Bluetooth Headphones 5.2 with 4-Mics Clear ",
+      "category": "wireless_headphones",
+      "actual_success": 32.897,
+      "pred_viability": 57.4,
+      "rating_count": 4965
+    },
+    {
+      "name": "Glazata Wireless Headset, 30 Hrs Talktime with Microphone, N",
+      "category": "smartphones",
+      "actual_success": 33.019,
+      "pred_viability": 58.4,
+      "rating_count": 2084
+    },
+    {
+      "name": "Withings Steel HR Sport - Multisport hybrid Smartwatch, conn",
+      "category": "smartwatches",
+      "actual_success": 33.439,
+      "pred_viability": 54.2,
+      "rating_count": 4576
+    },
+    {
+      "name": "Power Bank,Solar Charger,36800mAh 5V3.1A QC 3.0 Dual 2 USB P",
+      "category": "power_banks",
+      "actual_success": 33.712,
+      "pred_viability": 64.9,
+      "rating_count": 5382
+    },
+    {
+      "name": "Portable Charger 26800mAh Power Bank, COMMERCIAL TEXTURE DES",
+      "category": "power_banks",
+      "actual_success": 34.941,
+      "pred_viability": 69.9,
+      "rating_count": 1966
+    },
+    {
+      "name": "ZAGG InvisibleShield Glass Elite VisionGuard- for iPhone 12 ",
+      "category": "smartphones",
+      "actual_success": 36.53,
+      "pred_viability": 52.3,
+      "rating_count": 3888
+    },
+    {
+      "name": "Miady 2-Pack 20000mAh Portable Charger Power Bank, Dual USB ",
+      "category": "power_banks",
+      "actual_success": 37.975,
+      "pred_viability": 70.7,
+      "rating_count": 5281
+    },
+    {
+      "name": "AsperX 2-Pack 10000mAh USB C Output Portable Charger Power B",
+      "category": "power_banks",
+      "actual_success": 38.377,
+      "pred_viability": 67.4,
+      "rating_count": 5496
+    },
+    {
+      "name": "Boean Bluetooth Headphones, Wireless Headphones Bluetooth 5.",
+      "category": "wireless_headphones",
+      "actual_success": 38.413,
+      "pred_viability": 59.1,
+      "rating_count": 5514
+    },
+    {
+      "name": "CAPMESSO Reusable Coffee Capsules Refillable Originalline Po",
+      "category": "kitchen_appliances",
+      "actual_success": 38.85,
+      "pred_viability": 60.8,
+      "rating_count": 709
+    },
+    {
+      "name": "Skullcandy Indy Evo True Wireless In-Ear Bluetooth Earbuds, ",
+      "category": "wireless_headphones",
+      "actual_success": 39.287,
+      "pred_viability": 59.0,
+      "rating_count": 31354
+    },
+    {
+      "name": "ANDFZ Smart Watch(Receive & Dial), 2023 Newest 1.85\" TFT HD ",
+      "category": "smartwatches",
+      "actual_success": 39.706,
+      "pred_viability": 52.9,
+      "rating_count": 3594
+    },
+    {
+      "name": "ROMOSS 60000mAh High Capacity Power Bank, 22.5W Max PD 3.0 F",
+      "category": "smartphones",
+      "actual_success": 40.287,
+      "pred_viability": 58.2,
+      "rating_count": 1401
+    },
+    {
+      "name": "SAMSUNG Galaxy S21+ Plus 5G Factory Unlocked Android Cell Ph",
+      "category": "smartphones",
+      "actual_success": 40.522,
+      "pred_viability": 58.9,
+      "rating_count": 2643
+    },
+    {
+      "name": "Nite Ize HipClip - Attachable Pocket Clip For Smartphones(Pa",
+      "category": "smartphones",
+      "actual_success": 40.582,
+      "pred_viability": 59.2,
+      "rating_count": 4434
+    },
+    {
+      "name": "Michael Kors Access Gen 4 MKGO Smartwatch- Lightweight Touch",
+      "category": "smartwatches",
+      "actual_success": 41.948,
+      "pred_viability": 56.8,
+      "rating_count": 3303
+    },
+    {
+      "name": "RECAPS Stainless Steel Espresso Coffee Tamper Filling Tool R",
+      "category": "kitchen_appliances",
+      "actual_success": 42.005,
+      "pred_viability": 61.2,
+      "rating_count": 806
+    },
+    {
+      "name": "JBL Boombox 2 - Portable Bluetooth Speaker, Powerful Sound a",
+      "category": "bluetooth_speakers",
+      "actual_success": 42.187,
+      "pred_viability": 69.8,
+      "rating_count": 5105
+    },
+    {
+      "name": "EnergyCell Pilot 4GS Portable Charger,12000mAh Fast Charging",
+      "category": "power_banks",
+      "actual_success": 42.77,
+      "pred_viability": 66.1,
+      "rating_count": 5177
+    },
+    {
+      "name": "Pautios Smart Watch, Swimming Waterproof Fitness Tracker wit",
+      "category": "smartwatches",
+      "actual_success": 43.463,
+      "pred_viability": 55.2,
+      "rating_count": 2350
+    },
+    {
+      "name": "Amazfit GTS 4 Mini Smart Watch for Women Men, Alexa Built-in",
+      "category": "smartwatches",
+      "actual_success": 43.748,
+      "pred_viability": 53.3,
+      "rating_count": 3918
+    },
+    {
+      "name": "Skullcandy Sesh True Wireless In-Ear Earbuds - Black",
+      "category": "wireless_headphones",
+      "actual_success": 43.946,
+      "pred_viability": 55.0,
+      "rating_count": 41627
+    },
+    {
+      "name": "A-TGTGA Smart Watch for Women (Dial/Receive Calls,150+ Faces",
+      "category": "smartwatches",
+      "actual_success": 45.666,
+      "pred_viability": 52.2,
+      "rating_count": 1916
+    },
+    {
+      "name": "SKG Smart Watch for Women, Fitness Tracker with 5ATM Swimmin",
+      "category": "smartwatches",
+      "actual_success": 45.876,
+      "pred_viability": 53.9,
+      "rating_count": 4718
+    },
+    {
+      "name": "Ultimate Ears MEGABOOM 3 Portable Wireless Bluetooth Speaker",
+      "category": "bluetooth_speakers",
+      "actual_success": 46.941,
+      "pred_viability": 72.5,
+      "rating_count": 6590
+    },
+    {
+      "name": "SHOKZ (AfterShokz OpenMove - Open-Ear Bluetooth Sport Headph",
+      "category": "wireless_headphones",
+      "actual_success": 47.266,
+      "pred_viability": 55.9,
+      "rating_count": 9048
+    },
+    {
+      "name": "Vproof Monopod Selfie Stick Bluetooth, Lightweight Monopod A",
+      "category": "smartphones",
+      "actual_success": 47.271,
+      "pred_viability": 60.0,
+      "rating_count": 10378
+    },
+    {
+      "name": "Bose SoundLink Revolve (Series II) Portable Bluetooth Speake",
+      "category": "bluetooth_speakers",
+      "actual_success": 47.769,
+      "pred_viability": 72.8,
+      "rating_count": 4786
+    },
+    {
+      "name": "Antimi Bluetooth Speaker,FM Radio Player,MP3 Player Stereo P",
+      "category": "bluetooth_speakers",
+      "actual_success": 48.029,
+      "pred_viability": 73.2,
+      "rating_count": 5082
+    },
+    {
+      "name": "Refillable Coffee Capsules Cup Stainless Steel Nespresso Pod",
+      "category": "kitchen_appliances",
+      "actual_success": 48.163,
+      "pred_viability": 60.9,
+      "rating_count": 1580
+    },
+    {
+      "name": "TOORUN Bluetooth Earpiece, M26 Bluetooth Headset Handsfree W",
+      "category": "smartphones",
+      "actual_success": 48.558,
+      "pred_viability": 53.2,
+      "rating_count": 3808
+    },
+    {
+      "name": "Bose SoundLink around-ear wireless headphones II- White",
+      "category": "wireless_headphones",
+      "actual_success": 48.615,
+      "pred_viability": 59.9,
+      "rating_count": 9841
+    },
+    {
+      "name": "imuto 20000mah Power Bank,USB C 20W Portable Charger PD 3.0+",
+      "category": "power_banks",
+      "actual_success": 49.934,
+      "pred_viability": 70.9,
+      "rating_count": 5427
+    },
+    {
+      "name": "Jabra Elite Active 75t True Wireless Bluetooth, Navy \u2013 Earbu",
+      "category": "wireless_headphones",
+      "actual_success": 50.2,
+      "pred_viability": 57.1,
+      "rating_count": 12459
+    },
+    {
+      "name": "Portable Charger Power Bank 25800mAh Huge Capacity External ",
+      "category": "power_banks",
+      "actual_success": 50.754,
+      "pred_viability": 70.4,
+      "rating_count": 14435
+    },
+    {
+      "name": "Milk Frothing Pitcher, Stainless Steel Espresso Milk Frothin",
+      "category": "kitchen_appliances",
+      "actual_success": 51.58,
+      "pred_viability": 67.3,
+      "rating_count": 1253
+    },
+    {
+      "name": "Apple iPhone X, US Version, 256GB, Silver - AT&T (Renewed)",
+      "category": "smartphones",
+      "actual_success": 52.71,
+      "pred_viability": 57.4,
+      "rating_count": 23128
+    },
+    {
+      "name": "ROMOSS 30000mAh Power Bank Sense 8+, 18W PD USB C Portable C",
+      "category": "power_banks",
+      "actual_success": 53.315,
+      "pred_viability": 72.6,
+      "rating_count": 13636
+    },
+    {
+      "name": "Ultimate Ears MEGABOOM (2015) Portable Waterproof & Shockpro",
+      "category": "bluetooth_speakers",
+      "actual_success": 53.495,
+      "pred_viability": 73.3,
+      "rating_count": 4210
+    },
+    {
+      "name": "GoldTone Brand Reusable #4 Cone Coffee Filter fits Ninja Cof",
+      "category": "kitchen_appliances",
+      "actual_success": 55.112,
+      "pred_viability": 65.8,
+      "rating_count": 3758
+    },
+    {
+      "name": "Garmin f\u0113nix 5s, Premium and Rugged Smaller-Sized Multisport",
+      "category": "smartwatches",
+      "actual_success": 55.148,
+      "pred_viability": 55.4,
+      "rating_count": 8560
+    },
+    {
+      "name": "Apple iPhone XS Max, US Version, 256GB, Gold - AT&T (Renewed",
+      "category": "smartphones",
+      "actual_success": 55.279,
+      "pred_viability": 55.5,
+      "rating_count": 14650
+    },
+    {
+      "name": "JBL Xtreme 2 Portable Waterproof Wireless Bluetooth Speaker ",
+      "category": "bluetooth_speakers",
+      "actual_success": 55.648,
+      "pred_viability": 68.0,
+      "rating_count": 13341
+    },
+    {
+      "name": "Anker 622 Magnetic Battery (MagGo), 5000mAh Foldable Magneti",
+      "category": "power_banks",
+      "actual_success": 55.99,
+      "pred_viability": 67.4,
+      "rating_count": 7074
+    },
+    {
+      "name": "INIU Portable Charger, Small 10000mAh Power Bank USB C In/Ou",
+      "category": "power_banks",
+      "actual_success": 56.122,
+      "pred_viability": 72.4,
+      "rating_count": 14402
+    },
+    {
+      "name": "Reusable K Cup Coffee Filters Set, 4-Pack K Cup Coffee Pod F",
+      "category": "kitchen_appliances",
+      "actual_success": 56.755,
+      "pred_viability": 65.1,
+      "rating_count": 2073
+    },
+    {
+      "name": "FREE VILLAGE Commercial Ice Maker Machine, 100LBS/24H, Stain",
+      "category": "kitchen_appliances",
+      "actual_success": 57.75,
+      "pred_viability": 65.4,
+      "rating_count": 1185
+    },
+    {
+      "name": "Portable Charger Power Bank 25800mAh, Ultra-High Capacity Fa",
+      "category": "power_banks",
+      "actual_success": 57.89,
+      "pred_viability": 70.4,
+      "rating_count": 25692
+    },
+    {
+      "name": "SHOKZ OpenRun (AfterShokz Aeropex) - Open-Ear Bluetooth Bone",
+      "category": "wireless_headphones",
+      "actual_success": 58.025,
+      "pred_viability": 59.0,
+      "rating_count": 14822
+    },
+    {
+      "name": "Otium Bluetooth Earbuds Wireless Headphones Bluetooth Headph",
+      "category": "wireless_headphones",
+      "actual_success": 58.224,
+      "pred_viability": 56.6,
+      "rating_count": 16471
+    },
+    {
+      "name": "Tribit Wireless Earbuds, 100H Playtime Bluetooth 5.0 IPX8 Wa",
+      "category": "wireless_headphones",
+      "actual_success": 58.883,
+      "pred_viability": 56.2,
+      "rating_count": 26678
+    },
+    {
+      "name": "Apple Watch SE (2nd Gen) [GPS 44mm] Smart Watch w/Midnight A",
+      "category": "smartwatches",
+      "actual_success": 59.271,
+      "pred_viability": 54.2,
+      "rating_count": 5107
+    },
+    {
+      "name": "Segarty #2 Pour Over Coffee Maker, Single Cup Black Ceramic ",
+      "category": "kitchen_appliances",
+      "actual_success": 60.543,
+      "pred_viability": 66.3,
+      "rating_count": 1382
+    },
+    {
+      "name": "Garmin v\u00edvofit 2 Activity Tracker, White",
+      "category": "smartwatches",
+      "actual_success": 62.452,
+      "pred_viability": 56.3,
+      "rating_count": 4044
+    },
+    {
+      "name": "GOLDTONE Reusable Coffee Filter fits BUNN Coffee Maker and B",
+      "category": "kitchen_appliances",
+      "actual_success": 62.983,
+      "pred_viability": 64.7,
+      "rating_count": 1878
+    },
+    {
+      "name": "COMEXION Bluetooth Headset, Wireless Bluetooth Earpiece V5.0",
+      "category": "smartphones",
+      "actual_success": 63.544,
+      "pred_viability": 58.3,
+      "rating_count": 11313
+    },
+    {
+      "name": "Upgraded, Anker Soundcore Boost Bluetooth Speaker with Well-",
+      "category": "bluetooth_speakers",
+      "actual_success": 64.328,
+      "pred_viability": 68.1,
+      "rating_count": 28665
+    },
+    {
+      "name": "Soundcore Anker Motion Boom Outdoor Speaker with Titanium Dr",
+      "category": "bluetooth_speakers",
+      "actual_success": 65.176,
+      "pred_viability": 71.6,
+      "rating_count": 17763
+    },
+    {
+      "name": "iJoy Bluetooth Headphones Over Ear, Wireless and Wired Folda",
+      "category": "wireless_headphones",
+      "actual_success": 66.07,
+      "pred_viability": 58.1,
+      "rating_count": 5662
+    },
+    {
+      "name": "FRIGIDAIRE EFIC101-BLACK Portable Compact Maker, 26 lb per D",
+      "category": "kitchen_appliances",
+      "actual_success": 67.753,
+      "pred_viability": 67.3,
+      "rating_count": 3093
+    },
+    {
+      "name": "Google - Pixel 3a with 64GB Memory Cell Phone (Unlocked) - P",
+      "category": "smartphones",
+      "actual_success": 68.187,
+      "pred_viability": 59.0,
+      "rating_count": 8637
+    },
+    {
+      "name": "Ortizan Portable Bluetooth Speaker, IPX7 Waterproof Wireless",
+      "category": "bluetooth_speakers",
+      "actual_success": 68.381,
+      "pred_viability": 69.1,
+      "rating_count": 29287
+    },
+    {
+      "name": "Igloo ICEB26RR Automatic Portable Electric Countertop Ice Ma",
+      "category": "kitchen_appliances",
+      "actual_success": 68.467,
+      "pred_viability": 67.0,
+      "rating_count": 3050
+    },
+    {
+      "name": "ZIHNIC Bluetooth Headphones Over-Ear, Foldable Wireless and ",
+      "category": "wireless_headphones",
+      "actual_success": 68.88,
+      "pred_viability": 59.0,
+      "rating_count": 73753
+    },
+    {
+      "name": "Cafe Flow Stainless Steel Reusable Metal Coffee Pod Refillab",
+      "category": "kitchen_appliances",
+      "actual_success": 70.253,
+      "pred_viability": 65.9,
+      "rating_count": 3374
+    },
+    {
+      "name": "Aftershokz Aeropex Mini (Rebranded as Shokz OpenRun Mini) Bo",
+      "category": "wireless_headphones",
+      "actual_success": 72.611,
+      "pred_viability": 57.7,
+      "rating_count": 43149
+    },
+    {
+      "name": "EUHOMY Countertop Ice Maker Machine, 40Lbs/24H Auto Self-Cle",
+      "category": "kitchen_appliances",
+      "actual_success": 72.796,
+      "pred_viability": 65.4,
+      "rating_count": 4703
+    },
+    {
+      "name": "Stainless Steel Reusable Basket 8-12 Cup Sturdy Permanent Co",
+      "category": "kitchen_appliances",
+      "actual_success": 74.66,
+      "pred_viability": 65.6,
+      "rating_count": 5520
+    },
+    {
+      "name": "JBL GO2 - Waterproof Ultra Portable Bluetooth Speaker - Red",
+      "category": "bluetooth_speakers",
+      "actual_success": 75.405,
+      "pred_viability": 73.7,
+      "rating_count": 34684
+    },
+    {
+      "name": "DOSS Bluetooth Speaker, SoundBox Touch Portable Wireless Spe",
+      "category": "bluetooth_speakers",
+      "actual_success": 82.026,
+      "pred_viability": 71.9,
+      "rating_count": 77924
+    },
+    {
+      "name": "Bose SoundLink Micro: Small Portable Bluetooth Speaker (Wate",
+      "category": "bluetooth_speakers",
+      "actual_success": 83.795,
+      "pred_viability": 72.7,
+      "rating_count": 39041
+    },
+    {
+      "name": "GE Profile Opal 2.0 | Countertop Nugget Ice Maker with Side ",
+      "category": "kitchen_appliances",
+      "actual_success": 85.196,
+      "pred_viability": 68.2,
+      "rating_count": 2749
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+[18:12:26] ============================================================
+[18:12:26] OVERNIGHT CHAIN START
+[18:12:26] Step 1: 3/10 collected, missing ['smartphones', 'smartwatches', 'power_banks']... running sweep
+[18:12:26] $ C:\Program Files\Python313\python.exe scripts/collect_reddit.py --all  (attempt 1/1)
+[19:27:32]   fetched 47 raw comments -> data\staging\reddit_raw\smartwatches.jsonl
+  kept 46 deduped high-signal comments
+== wireless_headphones ==
+  [cache] data\staging\reddit_raw\wireless_headphones.jsonl
+  kept 103 deduped high-signal comments
+
+Wrote data\staging\reddit_context.json (1089 comments, 10 categories)
+NOTE: staging only — copy into data/final/reddit_context.json yourself once you've eyeballed it (data/final is contract-protected).
+[19:27:32] Step 1 OK: all 10 categories collected
+[19:27:32] Step 2: staging has 1089 comments across 10 cats: {'wireless_headphones': 103, 'bluetooth_speakers': 96, 'education_apps': 196, 'finance_apps': 121, 'health_fitness_apps': 237, 'kitchen_appliances': 136, 'power_banks': 85, 'productivity_apps': 51, 'smartphones': 18, 'smartwatches': 46}
+[19:27:32]   backed up existing final -> reddit_context.json.bak
+[19:27:32] Step 2 OK: installed -> C:\Users\LENOVO\Desktop\Capstone\data\final\reddit_context.json
+[19:27:32] $ C:\Program Files\Python313\python.exe src/prediction/category_profiler.py  (attempt 1/3)
+[19:27:33] data\extracted\category_profiles.json exists — skipping (use --force).
+[19:27:33] Step 3 OK: 0/10 profiles carry consumer_priorities
+[19:27:33] $ C:\Program Files\Python313\python.exe scripts/run_e2e_smoke.py  (attempt 1/2)
+[19:29:05] >>> (sandbox_e2e) C:\Users\LENOVO\Desktop\Capstone\src\prediction\predictor.py --category wireless_headphones --mock --specs {"name": "AcousticX Pro", "price": 79.0, "description": "ANC over-ear, 40h battery, aluminum frame"}
+
+>>> (sandbox_e2e) C:\Users\LENOVO\Desktop\Capstone\src\prediction\predictor.py --category finance_apps --mock --specs {"name": "BudgetBee", "price": 0.0, "description": "free budgeting app, bank sync, no ads"}
+
+============================================================
+E2E SMOKE PASSED — every stage ran and produced its artifacts.
+============================================================
+(sandbox C:\Users\LENOVO\Desktop\Capstone\sandbox_e2e removed; use --keep to inspect artifacts)
+[19:29:05] Step 4 OK: E2E SMOKE PASSED
+[19:29:05] $ C:\Program Files\Python313\python.exe scripts/ab_reddit_priorities.py  (attempt 1/8)
+[19:36:02] ============================================================
+[19:36:02] OVERNIGHT CHAIN START
+[19:36:02] Step 1 OK: all 10 categories collected
+[19:36:02] Step 2: staging has 1089 comments across 10 cats: {'wireless_headphones': 103, 'bluetooth_speakers': 96, 'education_apps': 196, 'finance_apps': 121, 'health_fitness_apps': 237, 'kitchen_appliances': 136, 'power_banks': 85, 'productivity_apps': 51, 'smartphones': 18, 'smartwatches': 46}
+[19:36:02]   backed up existing final -> reddit_context.json.bak
+[19:36:02] Step 2 OK: installed -> C:\Users\LENOVO\Desktop\Capstone\data\final\reddit_context.json
+[19:36:02] Step 3 OK (cached): 10/10 profiles already carry priorities
+[19:36:02] $ C:\Program Files\Python313\python.exe scripts/run_e2e_smoke.py  (attempt 1/2)
+[19:37:26] >>> (sandbox_e2e) C:\Users\LENOVO\Desktop\Capstone\src\prediction\predictor.py --category wireless_headphones --mock --specs {"name": "AcousticX Pro", "price": 79.0, "description": "ANC over-ear, 40h battery, aluminum frame"}
+
+>>> (sandbox_e2e) C:\Users\LENOVO\Desktop\Capstone\src\prediction\predictor.py --category finance_apps --mock --specs {"name": "BudgetBee", "price": 0.0, "description": "free budgeting app, bank sync, no ads"}
+
+============================================================
+E2E SMOKE PASSED — every stage ran and produced its artifacts.
+============================================================
+(sandbox C:\Users\LENOVO\Desktop\Capstone\sandbox_e2e removed; use --keep to inspect artifacts)
+[19:37:26] Step 4 OK: E2E SMOKE PASSED
+[19:37:26] $ C:\Program Files\Python313\python.exe scripts/ab_reddit_priorities.py  (attempt 1/8)
+[20:00:13] 
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+[20:00:13] Step 5 OK: Reddit priorities HELP | delta_rho=+0.048 delta_auc=+0.024 (n=89)
+[20:00:13] OVERNIGHT CHAIN COMPLETE — project exercised end-to-end with Reddit data
+[20:00:13] ============================================================

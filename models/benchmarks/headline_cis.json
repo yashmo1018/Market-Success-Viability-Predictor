@@ -1,0 +1,26 @@
+{
+  "holdout": {
+    "n": 59,
+    "spearman_rho": 0.317,
+    "rho_ci95": [
+      0.059,
+      0.543
+    ],
+    "rho_ci_excludes_zero": true,
+    "auc": 0.743,
+    "auc_ci95": [
+      0.507,
+      0.931
+    ]
+  },
+  "reddit_ab": {
+    "n": 89,
+    "delta_rho": 0.049,
+    "delta_ci95": [
+      -0.025,
+      0.125
+    ],
+    "ci_excludes_zero": false,
+    "note": "paired bootstrap (same products both arms); if CI includes 0 report the lift as exploratory, not confirmed"
+  }
+}

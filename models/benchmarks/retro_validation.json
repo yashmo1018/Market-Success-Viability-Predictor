@@ -1,0 +1,66 @@
+{
+  "n_products": 90,
+  "per_aspect": {
+    "value_for_money": {
+      "n": 89,
+      "r": 0.326,
+      "mae": 1.18,
+      "verdict": "MODERATE"
+    },
+    "utility": {
+      "n": 90,
+      "r": 0.379,
+      "mae": 1.03,
+      "verdict": "MODERATE"
+    },
+    "ease_of_use": {
+      "n": 90,
+      "r": 0.436,
+      "mae": 0.96,
+      "verdict": "STRONG"
+    },
+    "reliability": {
+      "n": 90,
+      "r": 0.389,
+      "mae": 1.47,
+      "verdict": "MODERATE"
+    },
+    "design_appeal": {
+      "n": 89,
+      "r": 0.187,
+      "mae": 1.05,
+      "verdict": "WEAK"
+    },
+    "after_sales": {
+      "n": 72,
+      "r": 0.054,
+      "mae": 2.5,
+      "verdict": "WEAK"
+    },
+    "build_quality": {
+      "n": 87,
+      "r": 0.402,
+      "mae": 1.19,
+      "verdict": "STRONG"
+    },
+    "durability": {
+      "n": 85,
+      "r": 0.394,
+      "mae": 1.63,
+      "verdict": "MODERATE"
+    },
+    "repairability": {
+      "n": 39,
+      "r": 0.276,
+      "mae": 2.53,
+      "verdict": "MODERATE"
+    }
+  },
+  "end_to_end": {
+    "spearman_rho": 0.256,
+    "pearson_r": 0.282,
+    "p_value": 0.015036333370756086,
+    "top_quartile_precision": 0.261
+  },
+  "note": "bridged from launch-knowable specs only (name/brand/price/features); actuals from review extraction; category profiles include the product's own reviews at ~1/130 weight (negligible leakage)"
+}

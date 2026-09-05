@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  /* HSL Color System - Default Premium Dark Mode */
+  --bg-app: HSL(240, 10%, 3.9%);
+  --bg-panel: HSL(240, 10%, 7%);
+  --bg-panel-hover: HSL(240, 10%, 9%);
+  --bg-input: HSL(240, 10%, 10%);
+  --border: HSL(240, 6%, 15%);
+  --border-focus: HSL(240, 5%, 35%);
+  
+  --text-primary: HSL(0, 0%, 98%);
+  --text-secondary: HSL(240, 5%, 70%);
+  --text-muted: HSL(240, 5%, 48%);
+  
+  --accent: HSL(171, 100%, 39%); /* Sleek Teal */
+  --accent-rgb: 0, 199, 172;
+  --accent-hover: HSL(171, 100%, 33%);
+  --accent-muted: HSL(171, 100%, 12%);
+  
+  --success: HSL(142.1, 70.6%, 45.3%);
+  --success-muted: HSL(142.1, 70.6%, 12%);
+  
+  --danger: HSL(354.3, 70.5%, 53.5%);
+  --danger-muted: HSL(354.3, 70.5%, 12%);
+  
+  --warning: HSL(37.9, 90.2%, 50.2%);
+  --warning-muted: HSL(37.9, 90.2%, 12%);
+  
+  --info: HSL(217.2, 91.2%, 59.8%);
+  --info-muted: HSL(217.2, 91.2%, 12%);
+  
+  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  
+  --transition-fast: 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="light"] {
+  /* Premium Light Mode */
+  --bg-app: HSL(0, 0%, 98%);
+  --bg-panel: HSL(0, 0%, 100%);
+  --bg-panel-hover: HSL(240, 5%, 96%);
+  --bg-input: HSL(0, 0%, 100%);
+  --border: HSL(240, 5%, 90%);
+  --border-focus: HSL(240, 5%, 70%);
+  
+  --text-primary: HSL(240, 10%, 4%);
+  --text-secondary: HSL(240, 5%, 35%);
+  --text-muted: HSL(240, 5%, 55%);
+  
+  --accent: HSL(171, 100%, 33%);
+  --accent-muted: HSL(171, 100%, 93%);
+  
+  --success: HSL(142.1, 76%, 36%);
+  --success-muted: HSL(142.1, 76%, 93%);
+  
+  --danger: HSL(354.3, 76%, 46%);
+  --danger-muted: HSL(354.3, 76%, 93%);
+  
+  --warning: HSL(37.9, 85%, 40%);
+  --warning-muted: HSL(37.9, 85%, 93%);
+  
+  --info: HSL(217.2, 85%, 45%);
+  --info-muted: HSL(217.2, 85%, 93%);
+  
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.04), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+body {
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color var(--transition-normal), color var(--transition-normal);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+p {
+  color: var(--text-secondary);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+a:hover {
+  color: var(--accent-hover);
+}
+
+input, select, textarea {
+  font-family: var(--font-body);
+  font-size: 14px;
+  background-color: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  padding: 8px 12px;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+  width: 100%;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--border-focus);
+  box-shadow: 0 0 0 1px var(--border-focus);
+}
+
+button {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  padding: 8px 16px;
+  transition: background-color var(--transition-fast), border-color var(--transition-fast), transform var(--transition-fast), opacity var(--transition-fast);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid transparent;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(20px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+
+.animate-fade-in {
+  animation: fadeIn var(--transition-normal) forwards;
+}
+
+.animate-slide-in {
+  animation: slideIn var(--transition-normal) forwards;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-app);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--border-focus);
+}
+
+/* --- High-Fidelity UI Interactions --- */
+
+/* Interactive transitions */
+.interactive-transition {
+  transition: all 250ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Cursor Spotlight */
+.spotlight-container {
+  position: relative;
+}
+.spotlight-card {
+  transition: opacity 250ms cubic-bezier(0.16, 1, 0.3, 1), transform 250ms cubic-bezier(0.16, 1, 0.3, 1), border-color 250ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.spotlight-container:hover .spotlight-card:not(:hover) {
+  opacity: 0.6;
+}
+
+/* Connected Visual Highlights */
+.aspect-highlight-active {
+  stroke: var(--accent) !important;
+  fill: var(--accent) !important;
+  opacity: 1 !important;
+  font-weight: 700;
+  color: var(--text-primary) !important;
+}
+
+.aspect-highlight-dim {
+  opacity: 0.25 !important;
+  stroke: var(--border) !important;
+}
+
+.aspect-row-highlight {
+  background-color: var(--bg-panel-hover) !important;
+  border-left: 2px solid var(--accent) !important;
+}
+
+/* Insight Following Cursor Tooltip */
+.floating-cursor-insight {
+  position: fixed;
+  pointer-events: none;
+  background: var(--bg-panel);
+  border: 1px solid var(--border-focus);
+  color: var(--text-primary);
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  line-height: 1.4;
+  box-shadow: var(--shadow-lg);
+  z-index: 1000;
+  width: max-content;
+  max-width: 220px;
+  font-weight: 500;
+  opacity: 0;
+  transform: translate(-50%, -120%) scale(0.95);
+  transition: opacity 200ms cubic-bezier(0.16, 1, 0.3, 1), transform 200ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.floating-cursor-insight.visible {
+  opacity: 1;
+  transform: translate(-50%, -120%) scale(1);
+}
+
+/* Predictive Data Flow Connection Line */
+.connecting-flow-line {
+  stroke: var(--accent);
+  stroke-dasharray: 4 4;
+  animation: flowLineDash 15s linear infinite;
+  opacity: 0.4;
+  transition: opacity 250ms, stroke-width 250ms;
+}
+.connecting-flow-line.active {
+  stroke-width: 2.5;
+  opacity: 0.9;
+}
+
+@keyframes flowLineDash {
+  to {
+    stroke-dashoffset: -100;
+  }
+}
+
+/* Confidence lens effects */
+.confidence-blur {
+  filter: blur(1.5px);
+  transition: filter 350ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.confidence-sharp {
+  filter: blur(0px);
+  transition: filter 350ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Physical Attraction Similarity Nodes */
+.network-node {
+  transition: cx 300ms cubic-bezier(0.16, 1, 0.3, 1), cy 300ms cubic-bezier(0.16, 1, 0.3, 1), r 250ms cubic-bezier(0.16, 1, 0.3, 1), fill 250ms, opacity 250ms;
+}
+.network-edge {
+  transition: x1 300ms, y1 300ms, x2 300ms, y2 300ms, stroke 250ms, opacity 250ms;
+}
+

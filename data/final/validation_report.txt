@@ -1,0 +1,34 @@
+Data build 2026-07-07T19:59:35
+Products: 740 physical, 382 app
+Reviews:  62462 physical, 72230 app
+
+Per category:
+  bluetooth_speakers: 136 products, 12225 reviews
+  education_apps: 80 products, 12512 reviews
+  finance_apps: 92 products, 17453 reviews
+  health_fitness_apps: 130 products, 26363 reviews
+  kitchen_appliances: 135 products, 22393 reviews
+  power_banks: 103 products, 3932 reviews
+  productivity_apps: 80 products, 15902 reviews
+  smartphones: 112 products, 3458 reviews
+  smartwatches: 116 products, 3981 reviews
+  wireless_headphones: 138 products, 16473 reviews
+
+Cleaning drop reasons:
+  too_short: 85581
+  non_english: 2267
+  too_long: 585
+  template_spam: 247
+  product_too_few_reviews: 83
+  product_reclassified_accessory: 77
+  empty_after_cleaning: 64
+  duplicate_in_product: 8
+
+Stage A validation: PASSED
+CONTRACT VERIFIED
+Physical products: 740 across 6 categories
+App products: 382 across 4 categories
+Physical reviews: 62462
+App reviews: 72230
+Reddit context: absent
+All checks passed.

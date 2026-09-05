@@ -1,0 +1,53 @@
+{
+  "n": 59,
+  "spearman_rho": 0.317,
+  "p_value": 0.01442741661583773,
+  "auc": 0.743,
+  "tier_means": [
+    58.51,
+    60.83,
+    61.69,
+    62.76,
+    64.06
+  ],
+  "monotonic": true,
+  "per_aspect": {
+    "value_for_money": {
+      "r": 0.176,
+      "n": 59
+    },
+    "utility": {
+      "r": 0.509,
+      "n": 59
+    },
+    "ease_of_use": {
+      "r": 0.531,
+      "n": 59
+    },
+    "reliability": {
+      "r": 0.25,
+      "n": 59
+    },
+    "design_appeal": {
+      "r": 0.186,
+      "n": 58
+    },
+    "after_sales": {
+      "r": 0.277,
+      "n": 46
+    },
+    "build_quality": {
+      "r": 0.125,
+      "n": 57
+    },
+    "durability": {
+      "r": 0.152,
+      "n": 56
+    },
+    "repairability": {
+      "r": 0.09,
+      "n": 24
+    }
+  },
+  "preregistered": "sample drawn seed 4242 disjoint from dev set BEFORE this run; pipeline frozen at v2; no tuning after this result"
+}

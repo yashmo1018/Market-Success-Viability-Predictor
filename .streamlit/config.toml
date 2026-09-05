@@ -1,0 +1,12 @@
+# The premium React UI is served through a tornado reverse-proxy injected into
+# Streamlit's own server (see src/app/app.py). Streamlit's default XSRF/CORS
+# guard rejects the frontend's POST /api/* calls with 403, so disable it here.
+# Safe for this app: the API only returns model predictions, holds no session
+# state, and performs no privileged mutations.
+[server]
+enableXsrfProtection = false
+enableCORS = false
+headless = true
+
+[browser]
+gatherUsageStats = false

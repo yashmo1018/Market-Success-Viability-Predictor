@@ -1,0 +1,82 @@
+{
+  "baselines": {
+    "price-position (|p - cat median|)": -0.178,
+    "price percentile in category": 0.25,
+    "marketing-copy length": -0.259,
+    "FULL PIPELINE (specs-only viability)": 0.256
+  },
+  "per_aspect_ci": {
+    "value_for_money": {
+      "r": 0.326,
+      "ci": [
+        0.15,
+        0.504
+      ],
+      "n": 89
+    },
+    "utility": {
+      "r": 0.379,
+      "ci": [
+        0.141,
+        0.585
+      ],
+      "n": 90
+    },
+    "ease_of_use": {
+      "r": 0.436,
+      "ci": [
+        0.23,
+        0.61
+      ],
+      "n": 90
+    },
+    "reliability": {
+      "r": 0.389,
+      "ci": [
+        0.182,
+        0.577
+      ],
+      "n": 90
+    },
+    "design_appeal": {
+      "r": 0.187,
+      "ci": [
+        0.009,
+        0.365
+      ],
+      "n": 89
+    },
+    "after_sales": {
+      "r": 0.054,
+      "ci": [
+        -0.178,
+        0.277
+      ],
+      "n": 72
+    },
+    "build_quality": {
+      "r": 0.402,
+      "ci": [
+        0.203,
+        0.579
+      ],
+      "n": 87
+    },
+    "durability": {
+      "r": 0.394,
+      "ci": [
+        0.192,
+        0.582
+      ],
+      "n": 85
+    },
+    "repairability": {
+      "r": 0.276,
+      "ci": [
+        -0.009,
+        0.522
+      ],
+      "n": 39
+    }
+  }
+}

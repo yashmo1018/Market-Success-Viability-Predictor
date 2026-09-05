@@ -1,0 +1,7 @@
+gemini:
+  keys: ["YOUR_GEMINI_KEY_1", "YOUR_GEMINI_KEY_2"]
+groq:
+  keys: ["YOUR_GROQ_KEY_1", "YOUR_GROQ_KEY_2"]
+ollama:
+  model: "gemma3:4b"
+  base_url: "http://localhost:11434"

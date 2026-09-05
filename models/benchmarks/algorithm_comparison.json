@@ -1,0 +1,158 @@
+{
+  "XGBoost": {
+    "r2": 0.5643,
+    "r2_std": 0.0406,
+    "rmse": 11.39,
+    "rmse_std": 0.59,
+    "mae": 9.04,
+    "mae_std": 0.47,
+    "accuracy": 0.9167,
+    "precision": 0.9136,
+    "recall": 0.9267,
+    "specificity": 0.9067,
+    "f1": 0.9175,
+    "auc_roc": 0.9829,
+    "mcc": 0.8383,
+    "train_time_s": 0.288,
+    "confusion_matrix": [
+      [
+        136,
+        14
+      ],
+      [
+        11,
+        139
+      ]
+    ]
+  },
+  "Random Forest": {
+    "r2": 0.5324,
+    "r2_std": 0.0308,
+    "rmse": 11.81,
+    "rmse_std": 0.48,
+    "mae": 9.41,
+    "mae_std": 0.49,
+    "accuracy": 0.92,
+    "precision": 0.9064,
+    "recall": 0.94,
+    "specificity": 0.9,
+    "f1": 0.9218,
+    "auc_roc": 0.9793,
+    "mcc": 0.8429,
+    "train_time_s": 0.701,
+    "confusion_matrix": [
+      [
+        135,
+        15
+      ],
+      [
+        9,
+        141
+      ]
+    ]
+  },
+  "Gradient Boosting": {
+    "r2": 0.5495,
+    "r2_std": 0.0377,
+    "rmse": 11.59,
+    "rmse_std": 0.62,
+    "mae": 9.19,
+    "mae_std": 0.57,
+    "accuracy": 0.9333,
+    "precision": 0.9255,
+    "recall": 0.9467,
+    "specificity": 0.92,
+    "f1": 0.9343,
+    "auc_roc": 0.9827,
+    "mcc": 0.8701,
+    "train_time_s": 2.432,
+    "confusion_matrix": [
+      [
+        138,
+        12
+      ],
+      [
+        8,
+        142
+      ]
+    ]
+  },
+  "SVR (RBF)": {
+    "r2": 0.4206,
+    "r2_std": 0.0642,
+    "rmse": 13.12,
+    "rmse_std": 0.54,
+    "mae": 10.34,
+    "mae_std": 0.42,
+    "accuracy": 0.89,
+    "precision": 0.8969,
+    "recall": 0.8867,
+    "specificity": 0.8933,
+    "f1": 0.8886,
+    "auc_roc": 0.9416,
+    "mcc": 0.7849,
+    "train_time_s": 0.012,
+    "confusion_matrix": [
+      [
+        134,
+        16
+      ],
+      [
+        17,
+        133
+      ]
+    ]
+  },
+  "Ridge Regression": {
+    "r2": 0.3675,
+    "r2_std": 0.0623,
+    "rmse": 13.72,
+    "rmse_std": 0.67,
+    "mae": 10.83,
+    "mae_std": 0.59,
+    "accuracy": 0.8333,
+    "precision": 0.8106,
+    "recall": 0.88,
+    "specificity": 0.7867,
+    "f1": 0.8399,
+    "auc_roc": 0.9209,
+    "mcc": 0.6779,
+    "train_time_s": 0.001,
+    "confusion_matrix": [
+      [
+        118,
+        32
+      ],
+      [
+        18,
+        132
+      ]
+    ]
+  },
+  "MLP Regressor": {
+    "r2": 0.4899,
+    "r2_std": 0.0688,
+    "rmse": 12.3,
+    "rmse_std": 0.64,
+    "mae": 9.64,
+    "mae_std": 0.48,
+    "accuracy": 0.9167,
+    "precision": 0.8953,
+    "recall": 0.9467,
+    "specificity": 0.8867,
+    "f1": 0.9193,
+    "auc_roc": 0.9658,
+    "mcc": 0.8367,
+    "train_time_s": 0.776,
+    "confusion_matrix": [
+      [
+        133,
+        17
+      ],
+      [
+        8,
+        142
+      ]
+    ]
+  }
+}

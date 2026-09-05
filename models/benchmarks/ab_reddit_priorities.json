@@ -1,0 +1,19 @@
+{
+  "n": 89,
+  "with_priorities": {
+    "spearman_rho": 0.359,
+    "p_value": 0.0005,
+    "auc": 0.752,
+    "n": 89
+  },
+  "without_priorities": {
+    "spearman_rho": 0.311,
+    "p_value": 0.003,
+    "auc": 0.728,
+    "n": 89
+  },
+  "delta_rho": 0.048,
+  "delta_auc": 0.024,
+  "verdict": "Reddit priorities HELP",
+  "note": "same provider + seed + specs both arms; only consumer_priorities differ"
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-09-05T13:21:16",
+  "pipeline_version": "data-track-1.1-physical-only",
+  "categories": {
+    "bluetooth_speakers": {
+      "products": 136,
+      "reviews": 12225
+    },
+    "power_banks": {
+      "products": 103,
+      "reviews": 3932
+    },
+    "smartwatches": {
+      "products": 116,
+      "reviews": 3981
+    },
+    "wireless_headphones": {
+      "products": 138,
+      "reviews": 16473
+    },
+    "ice_makers": {
+      "products": 147,
+      "reviews": 6988
+    }
+  },
+  "totals": {
+    "products_physical": 640,
+    "products_app": 0,
+    "reviews_physical": 43599,
+    "reviews_app": 0
+  },
+  "reddit_available": true,
+  "validation_passed": true,
+  "validation_report": "E:\\me\\Capstone\\data\\final\\validation_report.txt"
+}

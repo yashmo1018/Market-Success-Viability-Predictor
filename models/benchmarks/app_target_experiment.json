@@ -1,0 +1,30 @@
+{
+  "results": {
+    "composite_success (current, FAILED)": {
+      "cv_r2": 0.101,
+      "top_quartile_auc": 0.683,
+      "n": 319
+    },
+    "avg_rating (pure quality)": {
+      "cv_r2": 0.153,
+      "top_quartile_auc": 0.741,
+      "n": 319
+    },
+    "retention_proxy (engagement)": {
+      "cv_r2": -0.012,
+      "top_quartile_auc": 0.561,
+      "n": 319
+    },
+    "install_norm (pure distribution)": {
+      "cv_r2": 0.231,
+      "top_quartile_auc": 0.722,
+      "n": 319
+    },
+    "velocity_norm (distribution)": {
+      "cv_r2": 0.072,
+      "top_quartile_auc": 0.669,
+      "n": 319
+    }
+  },
+  "verdict": "Aspects best predict 'install_norm (pure distribution)' (R2=0.231). No target clears R2=0.25 \u2014 app aspects carry little signal for any outcome; removal/reframe justified."
+}
