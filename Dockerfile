@@ -17,9 +17,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the project (respects .dockerignore)
 COPY . .
 
-# HF Spaces routes external traffic to this port (matches app_port in README).
+# Render/HF route traffic to $PORT (Render sets it; default 7860 for HF/local).
 EXPOSE 7860
 
-# API keys are provided as HF Space secrets -> environment variables
-# (GEMINI_API_KEYS / GROQ_API_KEYS), which src/extraction/llm_provider.py reads.
-CMD ["python", "-m", "uvicorn", "src.app.api:app", "--host", "0.0.0.0", "--port", "7860"]
+# API keys come from the host's env vars (GEMINI_API_KEYS / GROQ_API_KEYS),
+# which src/extraction/llm_provider.py reads. Shell form so ${PORT} expands.
+CMD python -m uvicorn src.app.api:app --host 0.0.0.0 --port ${PORT:-7860}
