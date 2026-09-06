@@ -16,10 +16,43 @@ export default function PredictorResults({ result, categoryProfile, hoveredAspec
   const rangeMax = Math.min(100, Math.round(viability / 5) * 5 + 5);
   const percentile = result.retro_percentile;
   const confidence = result.confidence;
-  const LOW_CONF = 0.4;                       // below this, the estimate is unreliable
+  const LOW_CONF = 0.4;                       // below this, the estimate is unreliable (warn)
+  const NO_PREDICT = 0.2;                      // below this, don't show a prediction at all
   const isLowConfidence = confidence < LOW_CONF;
+  const suppressPrediction = confidence < NO_PREDICT;
   const groundedCount = Math.round((result.grounded_frac ?? 1) * 9);
   const successThreshold = result.success_threshold_p75;
+
+  // Too little grounded evidence to produce a meaningful estimate — hold the
+  // prediction and explain, rather than show a number that just echoes category averages.
+  if (suppressPrediction) {
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center',
+        justifyContent: 'center', textAlign: 'center', padding: '64px 24px',
+        gap: '16px', minHeight: '420px' }}>
+        <AlertCircle size={46} color="var(--warning)" />
+        <h3 style={{ fontSize: '20px', fontWeight: 700, color: 'var(--text-primary)', margin: 0 }}>
+          Not enough detail to predict
+        </h3>
+        <p style={{ fontSize: '14px', color: 'var(--text-secondary)', maxWidth: '480px',
+          lineHeight: 1.6, margin: 0 }}>
+          Your specification described only <strong>{groundedCount} of 9</strong> product
+          aspects with concrete evidence — too little for a meaningful estimate. Rather than
+          show a viability score that would just reflect <strong>category averages</strong>
+          instead of your actual product, we're holding the prediction.
+        </p>
+        <p style={{ fontSize: '14px', color: 'var(--text-secondary)', maxWidth: '480px',
+          lineHeight: 1.6, margin: 0 }}>
+          Describe the product properly — build materials, key features, battery/performance,
+          reliability, warranty, and what makes it stand out — then use{' '}
+          <strong>Review my spec</strong> (Spec Coach) and run the prediction again.
+        </p>
+        <div style={{ marginTop: '8px', fontSize: '12px', color: 'var(--text-muted)' }}>
+          Bridging confidence {confidence.toFixed(2)} · below the {NO_PREDICT.toFixed(2)} minimum
+        </div>
+      </div>
+    );
+  }
 
   const getTrustBadgeColor = (trust) => {
     switch (trust) {
