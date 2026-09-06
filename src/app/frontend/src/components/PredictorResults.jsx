@@ -16,6 +16,9 @@ export default function PredictorResults({ result, categoryProfile, hoveredAspec
   const rangeMax = Math.min(100, Math.round(viability / 5) * 5 + 5);
   const percentile = result.retro_percentile;
   const confidence = result.confidence;
+  const LOW_CONF = 0.4;                       // below this, the estimate is unreliable
+  const isLowConfidence = confidence < LOW_CONF;
+  const groundedCount = Math.round((result.grounded_frac ?? 1) * 9);
   const successThreshold = result.success_threshold_p75;
 
   const getTrustBadgeColor = (trust) => {
@@ -99,18 +102,18 @@ export default function PredictorResults({ result, categoryProfile, hoveredAspec
             <span style={styles.kpiLabel}>Bridging Confidence</span>
             <HelpCircle size={14} style={styles.infoIcon} />
           </div>
-          <span style={styles.kpiValue}>{confidence.toFixed(2)}</span>
-          <p style={styles.kpiSub}>Scale of 0.00 to 1.00</p>
+          <span style={{ ...styles.kpiValue, ...(isLowConfidence ? { color: 'var(--warning)' } : {}) }}>{confidence.toFixed(2)}</span>
+          <p style={styles.kpiSub}>{isLowConfidence ? `Low — only ${groundedCount}/9 aspects grounded` : 'Scale of 0.00 to 1.00'}</p>
         </div>
       </div>
 
-      {result.abstain && (
+      {isLowConfidence && (
         <div style={styles.warningBanner} className="spotlight-card">
           <AlertCircle size={20} color="var(--warning)" />
           <div style={styles.bannerTextContainer}>
-            <h4 style={styles.bannerTitle}>Low-Evidence Prediction Notice</h4>
+            <h4 style={styles.bannerTitle}>Low-Confidence Estimate — treat as indicative only</h4>
             <p style={styles.bannerDesc}>
-              {result.n_ungrounded} of {Object.keys(result.bridged_scores || {}).length} aspect estimates had no concrete evidence in the spec. Consider refining your draft using the Spec Coach.
+              Only {groundedCount} of 9 aspects were backed by concrete evidence in your specification, so this {viability}% viability leans mostly on <strong>category averages</strong> rather than your actual product — it is not a reliable estimate for this design. Add detail (materials, battery, reliability, warranty, standout features) using the <strong>Spec Coach</strong> and re-run for a grounded result.
             </p>
           </div>
         </div>
