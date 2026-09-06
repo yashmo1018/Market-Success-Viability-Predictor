@@ -233,6 +233,7 @@ class Predictor:
         validity = self._validity()
         n_ungrounded = sum(1 for g in grounded.values() if not g)
         return {
+            "price": float(user_specs.get("price", 0.0)),  # input price, for the positioning chart
             "viability_pct": round(np.clip(pred_aspects, 0, 100), 1),
             "full_model_pct": round(np.clip(pred_full, 0, 100), 1),
             "retro_percentile": self._retro_percentile(float(pred_aspects)),
