@@ -198,9 +198,9 @@ export default function PredictorResults({ result, categoryProfile, hoveredAspec
         <div style={styles.shapPanel} className="spotlight-card interactive-transition">
           <div style={styles.shapHeader}>
             <ShieldAlert size={18} color="var(--danger)" />
-            <h3 style={styles.shapTitle}>Top Risk Factors</h3>
+            <h3 style={styles.shapTitle}>Lowering Your Viability ↓</h3>
           </div>
-          <p style={styles.shapDesc}>Hover cards to preview simulated score impact if resolved:</p>
+          <p style={styles.shapDesc}>Aspects the model weighs <em>against</em> your predicted score (not always the same as a weak spec):</p>
           <div style={styles.shapList}>
             {result.top_risks?.map((risk, idx) => {
               const baseFeature = risk.feature.replace(/_mention_rate/g, '').replace(/_frequency/g, '');
@@ -238,9 +238,9 @@ export default function PredictorResults({ result, categoryProfile, hoveredAspec
         <div style={styles.shapPanel} className="spotlight-card interactive-transition">
           <div style={styles.shapHeader}>
             <ShieldCheck size={18} color="var(--success)" />
-            <h3 style={styles.shapTitle}>Top Strength Levers</h3>
+            <h3 style={styles.shapTitle}>Raising Your Viability ↑</h3>
           </div>
-          <p style={styles.shapDesc}>Key factors boosting your viability score:</p>
+          <p style={styles.shapDesc}>Aspects the model weighs <em>toward</em> your predicted score (a learned pattern, not always a strong spec):</p>
           <div style={styles.shapList}>
             {result.top_strengths?.map((strength, idx) => {
               const baseFeature = strength.feature.replace(/_mention_rate/g, '').replace(/_frequency/g, '');

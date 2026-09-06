@@ -100,13 +100,29 @@ class Predictor:
         X["category"] = X["category"].cat.codes
         explainer = shap.TreeExplainer(model)
         vals = explainer.shap_values(X)[0]
-        pairs = sorted(zip(row.columns, vals), key=lambda t: t[1])
-        def _fmt(feature: str, impact: float) -> dict:
-            aspect = feature.replace("_mention_rate", "")
-            return {"feature": feature, "impact": round(float(impact), 2),
+        shap_by_feature = dict(zip(row.columns, vals))
+
+        # Aggregate SHAP to the ASPECT level: each aspect's total contribution is
+        # its score feature + its mention_rate feature. Keep ONLY real aspects
+        # (the bridged ones) so non-actionable metadata (category, price,
+        # rating_count, velocity, installs) never surfaces as a "risk/strength".
+        # The sign is the model's effect on predicted viability (+ raises, - lowers),
+        # which can diverge from whether the aspect itself is "good" — that's a real
+        # learned relationship, surfaced honestly under direction-based labels.
+        aspect_impact: dict[str, float] = {}
+        for aspect in bridged_reasoning:
+            aspect_impact[aspect] = (
+                float(shap_by_feature.get(aspect, 0.0))
+                + float(shap_by_feature.get(f"{aspect}_mention_rate", 0.0))
+            )
+        ordered = sorted(aspect_impact.items(), key=lambda t: t[1])
+
+        def _fmt(aspect: str, impact: float) -> dict:
+            return {"feature": aspect, "impact": round(float(impact), 2),
                     "reasoning": bridged_reasoning.get(aspect, "")}
-        risks = [_fmt(f, v) for f, v in pairs if v < 0][:k]
-        strengths = [_fmt(f, v) for f, v in sorted(pairs, key=lambda t: -t[1])
+
+        risks = [_fmt(a, v) for a, v in ordered if v < 0][:k]
+        strengths = [_fmt(a, v) for a, v in sorted(ordered, key=lambda t: -t[1])
                      if v > 0][:k]
         return risks, strengths
 
