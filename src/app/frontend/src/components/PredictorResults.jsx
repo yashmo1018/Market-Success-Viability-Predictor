@@ -92,7 +92,7 @@ export default function PredictorResults({ result, categoryProfile, hoveredAspec
         <div 
           style={styles.kpiCard} 
           className="spotlight-card interactive-transition"
-          onMouseMove={(e) => handleKpiMouseMove(e, `Confidence is ${confidence.toFixed(2)}/1.00, indicating high alignment between your specification draft and category expectations.`)}
+          onMouseMove={(e) => handleKpiMouseMove(e, `${confidence.toFixed(2)}/1.00 — the LLM's spec-reading confidence scaled by how much of your spec was actually backed by evidence (${Math.round((result.grounded_frac ?? 1) * 9)}/9 aspects). Low = the estimate leans on category averages, not your input; add detail via the Spec Coach.`)}
           onMouseLeave={handleKpiMouseLeave}
         >
           <div style={styles.kpiHeader}>

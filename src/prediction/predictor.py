@@ -232,12 +232,21 @@ class Predictor:
 
         validity = self._validity()
         n_ungrounded = sum(1 for g in grounded.values() if not g)
+        n_aspects = max(len(bridged), 1)
+        grounded_frac = (n_aspects - n_ungrounded) / n_aspects
+        # Grounding-adjusted confidence: the LLM's raw self-confidence is scaled by
+        # how many aspects were actually backed by evidence in the spec. A vague or
+        # nonsense spec (few grounded aspects) can no longer report high confidence,
+        # even though the LLM fills every aspect from category-average priors.
+        adj_confidence = round(bridging.confidence * grounded_frac, 2)
         return {
             "price": float(user_specs.get("price", 0.0)),  # input price, for the positioning chart
             "viability_pct": round(np.clip(pred_aspects, 0, 100), 1),
             "full_model_pct": round(np.clip(pred_full, 0, 100), 1),
             "retro_percentile": self._retro_percentile(float(pred_aspects)),
-            "confidence": bridging.confidence,
+            "confidence": adj_confidence,
+            "llm_confidence": bridging.confidence,  # raw LLM self-report (pre-grounding)
+            "grounded_frac": round(grounded_frac, 2),
             "bridged_scores": {a: {"score": s.score, "reasoning": s.reasoning,
                                    "grounded": s.grounded,
                                    "trust": validity.get(a, {}).get("badge", "UNMEASURED")}
