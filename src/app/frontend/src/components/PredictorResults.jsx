@@ -138,8 +138,9 @@ export default function PredictorResults({ result, categoryProfile, hoveredAspec
           hoveredAspect={hoveredAspect}
           setHoveredAspect={setHoveredAspect}
         />
-        <DistributionScatterChart 
-          currentProduct={{ price: result.price || 49.99, viability }} 
+        <DistributionScatterChart
+          currentProduct={{ price: result.price || 49.99, viability }}
+          categoryProducts={result.category_products}
         />
       </div>
 
