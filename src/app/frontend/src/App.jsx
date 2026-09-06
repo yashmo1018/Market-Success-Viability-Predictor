@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import SimulatorForm from './components/SimulatorForm';
 import SpecCoachPanel from './components/SpecCoachPanel';
 import PredictorResults from './components/PredictorResults';
+import LoadingPanel from './components/LoadingPanel';
 import { Cpu, AlertTriangle, AlertCircle, Info, Database } from 'lucide-react';
 
 export default function App() {
@@ -208,10 +209,13 @@ export default function App() {
                 {simulatorRightTab === 'critique' && (
                   <>
                     {isLoadingCoach ? (
-                      <div style={styles.loadingArea}>
-                        <div style={styles.spinner}></div>
-                        <p style={styles.loadingText}>Running category pain-point analysis...</p>
-                      </div>
+                      <LoadingPanel messages={[
+                        'Reading your specification…',
+                        'Retrieving category intelligence…',
+                        'Surfacing consumer pain points…',
+                        'Scoring aspect coverage…',
+                        'Drafting sharpening questions…',
+                      ]} />
                     ) : (
                       <SpecCoachPanel
                         coachResult={coachResult}
@@ -224,10 +228,13 @@ export default function App() {
                 {simulatorRightTab === 'prediction' && (
                   <>
                     {isLoadingPredict ? (
-                      <div style={styles.loadingArea}>
-                        <div style={styles.spinner}></div>
-                        <p style={styles.loadingText}>Mapping design features to XGBoost models...</p>
-                      </div>
+                      <LoadingPanel messages={[
+                        'Bridging specs to consumer aspects…',
+                        'Grounding scores in category data…',
+                        'Running XGBoost viability models…',
+                        'Computing SHAP explanations…',
+                        'Benchmarking against category leaders…',
+                      ]} />
                     ) : predictResult ? (
                       <PredictorResults
                         result={predictResult}
@@ -339,10 +346,10 @@ export default function App() {
                     )}
                   </div>
                 ) : (
-                  <div style={styles.loadingArea}>
-                    <div style={styles.spinner}></div>
-                    <p style={styles.loadingText}>Fetching category details...</p>
-                  </div>
+                  <LoadingPanel messages={[
+                    'Fetching category intelligence…',
+                    'Loading price & aspect benchmarks…',
+                  ]} />
                 )}
               </div>
             </div>
@@ -417,10 +424,10 @@ export default function App() {
                 </div>
               </div>
             ) : (
-              <div style={styles.loadingArea}>
-                <div style={styles.spinner}></div>
-                <p style={styles.loadingText}>Loading model training report...</p>
-              </div>
+              <LoadingPanel messages={[
+                'Loading model training report…',
+                'Reading cross-validation metrics…',
+              ]} />
             )}
           </div>
         )}
