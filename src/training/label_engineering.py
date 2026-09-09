@@ -3,7 +3,7 @@
 Output: data/extracted/labels.json
   {product_uid: {success_score, components: {...}, suspect_reviews: bool, category, product_type}}
 
-Formulas (CLAUDE.md §4):
+Formulas (the pipeline spec §4):
   velocity = review_count / max(months_between(first_review_ts, latest_review_ts), 1)
   PHYSICAL: 100 * (0.40*volume_norm + 0.35*rating_norm + 0.25*velocity_norm)
   APP:      100 * (0.30*install_norm + 0.30*rating_norm + 0.20*velocity_norm + 0.20*retention_norm)

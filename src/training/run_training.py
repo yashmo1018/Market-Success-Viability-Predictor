@@ -49,7 +49,7 @@ XGB_PARAMS = dict(
 )
 EARLY_STOPPING_ROUNDS = 50
 
-# columns removed for the honest "aspects-only" variant (CLAUDE.md §6 leakage guard).
+# columns removed for the honest "aspects-only" variant (the pipeline spec §6 leakage guard).
 # days_since_update is app metadata, not a review aspect — it must be excluded so the
 # aspects-only model measures PURE sentiment contribution.
 LEAKY_COLUMNS = ["price", "avg_rating", "rating_count_log", "review_velocity",

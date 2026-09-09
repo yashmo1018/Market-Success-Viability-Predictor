@@ -1,6 +1,6 @@
 """Frozen aspect schema and prompt templates for Stage B extraction and Stage G bridging.
 
-The aspect dicts and prompt wording are FROZEN per CLAUDE_ml_track.md §3.1 —
+The aspect dicts and prompt wording are FROZEN per the ML pipeline spec §3.1 —
 changing them invalidates trained models.
 """
 

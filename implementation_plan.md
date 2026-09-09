@@ -5,11 +5,11 @@
 
 | Track | Owner | Deliverables |
 |---|---|---|
-| Data Track | Teammate(s) | `data/final/` contract files + validation report (per CLAUDE_data_track.md) |
-| ML Track | Raj | Extraction pipeline, both XGBoost models, bridging layer, Streamlit app (per CLAUDE_ml_track.md) |
+| Data Track | Teammate(s) | `data/final/` contract files + validation report (per the data contract) |
+| ML Track | Raj | Extraction pipeline, both XGBoost models, bridging layer, Streamlit app (per the ML pipeline spec) |
 | Shared | Both | Supabase setup, report writing, demo prep |
 
-**The interface between tracks is the DATA CONTRACT** (Section 2 of CLAUDE_data_track.md). It is frozen after Week 1. Changes require both owners' sign-off and edits to both CLAUDE.md files.
+**The interface between tracks is the DATA CONTRACT** (Section 2 of the data contract). It is frozen after Week 1. Changes require both owners' sign-off and edits to both the pipeline spec files.
 
 ### 2. Timeline (8 working weeks)
 
@@ -67,12 +67,12 @@
 | Category yields too thin | Low | High | G1 gate before big downloads | Data |
 | Label variance flat | Med | High | G3 diagnostic; alternative weightings pre-planned | ML |
 | Contract drift between tracks | Med | High | Frozen contract + loader validation that names exact violations | Both |
-| Team member unavailable | Med | Med | Both CLAUDE.md files are complete enough for either person to run either track via Claude Code | Both |
+| Team member unavailable | Med | Med | Both the pipeline spec files are complete enough for either person to run either track via the development workflow | Both |
 
 ### 5. Tooling & Ways of Working
-- All code written via Claude Code sessions driven by the two CLAUDE.md files; keep both files updated as ground truth
+- All code written via the development workflow sessions driven by the two the pipeline spec files; keep both files updated as ground truth
 - Git: main branch protected; feature branches per stage; PR review by the other track owner for contract-touching changes
-- Long batches (extraction) run on local machines, never inside Claude Code sessions
+- Long batches (extraction) run on local machines, never inside the development workflow sessions
 - Weekly 30-min sync: gate status, blockers, contract change requests
 - Secrets: `.env` + `config/llm_providers.yaml`, both gitignored, template files committed
 

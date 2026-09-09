@@ -132,7 +132,7 @@ Sanity-check in the UI: predict a headphone at the category median price with an
 | 10–14 | Paper/report: use `training_report.json`, `benchmark_results.json`, SHAP PNGs; demo polish | — |
 | 15–21 | Buffer: data-team slippage, re-extraction, presentation | — |
 
-**Compression option if data is late:** Steps 1–2 on day 1, launch batch, and write the paper's methods section from this manual + CLAUDE.md while the batch runs — nothing in the methods depends on results.
+**Compression option if data is late:** Steps 1–2 on day 1, launch batch, and write the paper's methods section from this manual + the pipeline spec while the batch runs — nothing in the methods depends on results.
 
 ## 5. Failure decision trees
 
@@ -157,7 +157,7 @@ Sanity-check in the UI: predict a headphone at the category median price with an
 
 ## 6. Rules for the AI assistant continuing this (cheap-model edition)
 
-- **Always start** by reading this file + `CLAUDE.md`. Then run `python scripts/run_e2e_smoke.py` to confirm the repo is healthy before changing anything.
+- **Always start** by reading this file + `the pipeline spec`. Then run `python scripts/run_e2e_smoke.py` to confirm the repo is healthy before changing anything.
 - **Small diffs only.** One stage per change. Rerun the smoke test after every change.
 - **Don't refactor.** The structure is intentional (cached stages, manifest-driven columns, relative paths). "Cleanups" have broken pipelines like this before.
 - **Don't invent columns or aspects.** The feature space is defined ONLY by `feature_columns()` + the on-disk manifests.

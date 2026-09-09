@@ -5,7 +5,7 @@ Outputs:
   models/xgb_physical_features.json, xgb_app_features.json  (the ordered column manifest —
   prediction builds input vectors by iterating this file; NEVER hardcode order elsewhere)
 
-Rules (CLAUDE.md §5):
+Rules (the pipeline spec §5):
   - per aspect: mean of non-null scores + mention_rate = n_mentioned / n_reviews_extracted
   - zero mentions -> NaN (XGBoost native missing; never impute)
   - drop extraction rows with confidence < 0.3

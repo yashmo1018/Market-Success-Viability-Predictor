@@ -15,7 +15,7 @@ Capstone/
 ├── paper_ieee/              → the IEEE-format capstone paper (LaTeX source + figures)
 ├── logs/                   → daemon/validation run logs
 ├── capstone.db             → read-only SQLite mirror of the data, for human browsing
-├── CLAUDE.md                → the frozen technical spec / build contract for this track
+├── the pipeline spec                → the frozen technical spec / build contract for this track
 ├── OPERATING_MANUAL.md      → the authoritative day-by-day runbook
 ├── DATA_PLAYBOOK.md         → data sourcing/cleaning rationale
 ├── README.md                 → quick setup + execution order
@@ -94,11 +94,11 @@ These are one-off analyses, validation harnesses, and operational tooling — di
 
 | File | What it's for |
 |---|---|
-| `CLAUDE.md` | The frozen build contract: aspect schema, label formulas, feature column order, acceptance gates — the spec this whole codebase was built against. If you need to know "is this behavior intentional," this file is the answer key. |
+| `the pipeline spec` | The frozen build contract: aspect schema, label formulas, feature column order, acceptance gates — the spec this whole codebase was built against. If you need to know "is this behavior intentional," this file is the answer key. |
 | `OPERATING_MANUAL.md` | The authoritative day-by-day runbook and failure decision tree — the doc that wins if it conflicts with anything else. |
 | `DATA_PLAYBOOK.md` | Why each data source was chosen, what was excluded and why, cleaning rationale. |
 | `README.md` | Fast setup + the exact command sequence to run the pipeline from scratch. |
-| `system_architecture.md`, `product_requirements.md`, `technical_requirements.md`, `uiux_design_brief.md`, `implementation_plan.md`, `data_directory_feature_catalog_app_flow.md` | Earlier-stage planning documents — useful for understanding *why* a requirement exists, but `CLAUDE.md` and the actual code are the ground truth if they ever disagree. |
+| `system_architecture.md`, `product_requirements.md`, `technical_requirements.md`, `uiux_design_brief.md`, `implementation_plan.md`, `data_directory_feature_catalog_app_flow.md` | Earlier-stage planning documents — useful for understanding *why* a requirement exists, but `the pipeline spec` and the actual code are the ground truth if they ever disagree. |
 
 ## 3.9 Other root files
 

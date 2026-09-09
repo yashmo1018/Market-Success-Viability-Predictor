@@ -1,4 +1,4 @@
-"""Zero-Claude progress check: python scripts/check_progress.py"""
+"""Progress progress check: python scripts/check_progress.py"""
 
 import json
 import time

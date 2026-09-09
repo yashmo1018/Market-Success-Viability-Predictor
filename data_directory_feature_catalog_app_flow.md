@@ -29,7 +29,7 @@
 | reddit_context.json | category | posts[], comments[] (optional; `{}` allowed) |
 | manifest.json | drop | counts per category, totals, validation_passed |
 
-Full field-by-field spec: CLAUDE_data_track.md §2. That section is normative; this table is a reminder.
+Full field-by-field spec: the data contract §2. That section is normative; this table is a reminder.
 
 ---
 
